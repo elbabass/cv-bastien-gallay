@@ -29,22 +29,21 @@
   // date: datetime.today().display("[month repr:long] [year]"),
   // heading-font: "Fira Sans",
   // body-font: ("Noto Sans", "Roboto"),
-  // body-font-size: 10.5pt,
-  // paper-size: "us-letter",
-  // side-width: 4cm,
+  body-font-size: 10pt,
+  paper-size: "a4",
+  side-width: 4.5cm,
   // gdpr: false,
   // footer: auto,
 )
 
 #side[
   = A propos
-  Passionné de logiciel depuis l’enfance, j’ai développé une expertise en conception de solutions innovantes et en accompagnement d’équipes techniques. Fort de 15 ans d’expérience, je transmets ma passion pour l’innovation, l’agilité et le software craftsmanship à travers l’entrepreneuriat, le coaching et la formation.
+  Passionné de logiciel depuis l'enfance, j'accompagne les équipes techniques dans l'innovation et la transformation digitale depuis plus de 25 ans.
 
   = Centres d'intérêt
   - Intelligence artificielle
-  - Technologies émergentes
-  - Dynamique des équipes
-  - Formation et coaching
+  - Management et leadership
+  - Entrepreneuriat
 
   = Contact
   #contact-info()
@@ -66,51 +65,60 @@
   #item-with-level("Anglais", 4, subtitle: "Courant")
   // #item-with-level("Espagnol", 2, subtitle: "Notions")
 
+  = Expertises
+  #item-pills((
+    "Lean",
+    "Scrum",
+    "Kanban",
+    "eXtreme Programming",
+    "IA",
+    "Test Driven Development",
+    "Spec Driven Development",
+    "Clean Code",
+    "Domain Driven Design",
+    "TypeScript",
+    "SQL",
+    "Python",
+    "C#",
+    "C",
+    "Rust",
+    "Management",
+    "Développement",
+    "Architecture",
+  ))
+
   // = Technology
   // #item-with-level("Flux Capacitor Design", 5)
   // #item-with-level("Time Machine Construction", 5)
   // #item-with-level("Robotics", 3)
   // #item-with-level("Computer Programming", 3)
 
-  = Other Skills
-  #item-pills((
-    "Creative Problem Solving",
-    "Improvisation",
-  ))
+  // = Other Skills
+  // #item-pills((
+  //   "Creative Problem Solving",
+  //   "Improvisation",
+  // ))
 ]
 
 = Expérience Professionnelle
 
 #entry(
-  title: "Chief Technology Officer",
-  date: "10/2024 - 08/2025",
+  title: "Consultant Technique Senior → Chief Technology Officer",
+  date: "02/2021 - 08/2025",
   institution: "PALO IT",
   location: "Bordeaux/Paris, France",
 )[
-  - Responsable de la stratégie technologique et de l'innovation, avec participation au COMEX de l'entreprise.
-  - Management et mentorat des équipes techniques (40+ personnes) et développement des talents.
+  - *En tant que CTO (10/2024 - 08/2025) :* Responsable de la stratégie technologique et de l'innovation, avec participation au COMEX de l'entreprise.
+  - Management et mentorat des équipes techniques (40+ personnes) et développement des talents au sein de l'organisation.
   - Conception et mise en œuvre de Gen-e2, méthode basée sur l'IA pour la création de produits numériques.
   - Organisation des propositions commerciales et coordination des initiatives technologiques internationales.
-  - Formation des équipes sur les technologies émergentes et mise en place de partenariats stratégiques.
+  - *En tant que Consultant Senior :* Accompagnement des clients dans leurs stratégies technologiques et conseil en architecture logicielle.
+  - Animation de la communauté technique interne, création du Career Path des consultants France et participation au recrutement.
+  - Formation et coaching des équipes sur les méthodologies agiles, technologies émergentes et meilleures pratiques de développement.
 ]
 
 #entry(
-  title: "Consultant Technique Senior",
-  date: "02/2021 - 08/2024",
-  institution: "PALO IT",
-  location: "Bordeaux, France",
-)[
-  - Accompagnement des clients dans la définition et la mise en œuvre de leurs stratégies technologiques.
-  - Animation de la communauté technique interne et partage des connaissances.
-  - Création du Career Path général des consultant France.
-  - Participation au recrutement technique et à l'intégration des nouveaux talents.
-  - Conseil en architecture logicielle, choix technologiques et meilleures pratiques de développement.
-  - Formation et coaching des équipes de développement sur les méthodologies agiles et les technologies modernes.
-  - Conception et développement de solutions logicielles innovantes répondant aux besoins spécifiques des clients.
-]
-
-#entry(
-  title: "Fondateur & Coach Agile",
+  title: "Gérant & Coach Agile",
   date: "09/2013 - 01/2021",
   institution: "Upwiser",
   location: "Bordeaux, France",
@@ -126,39 +134,44 @@
   - Accompagnement de près de 100 startups et PME dans leur transformation agile et leur gestion de l'innovation.
 ]
 
-// = Academic Experience
+#entry(
+  title: "Chef de projet technique et Scrum Master",
+  date: "10/2010 - 09/2013",
+  institution: "CDiscount",
+  location: "Bordeaux, France",
+)[
+  - Gestion de projets techniques et Scrum Master pour des projets clients variés.
+  - Environnement de développement .Net, C\#, SQL Server.
+  - Responsable technique de la plateforme de paiement.
+]
 
-// #entry(
-//   title: "Visiting Professor: Temporal Physics",
-//   date: "1985",
-//   institution: "Hill Valley University",
-//   location: "Hill Valley, CA, USA",
-// )[
-//   - Developed and taught courses on time travel theory and paradox management.
-//   - Supervised student projects on experimental physics and invention.
-// ]
-
-// #entry(
-//   title: "Adjunct Lecturer: Quantum Theory and Paradoxes",
-//   date: "1978 – 1984",
-//   institution: "California Institute of Technology",
-//   location: "Pasadena, CA, USA",
-// )[
-//   - Lectured on advanced quantum mechanics and paradoxes in theoretical physics.
-//   - Organized interdisciplinary seminars on causality and time.
-// ]
-
-// #entry(
-//   title: "Research Fellow: High-Energy Particle Physics",
-//   date: "1952 – 1955",
-//   institution: "MIT",
-//   location: "Cambridge, MA, USA",
-// )[
-//   - Conducted research on high-voltage circuits and early particle acceleration experiments.
-// ]
+#entry(
+  title: "Consultant Technique",
+  date: "07/2006 - 09/2010",
+  institution: "Cast Consulting",
+  location: "Paris, France",
+)[
+  - Intervention sur des projets clients variés, principalement dans le domaine Web.
+  - Domaines métiers : e-commerce, jeux d'argent, nucléaire, etc.
+  - Environnement de développement : Java, PHP, SQL Server, Oracle, etc.
+]
 
 
-= Education
+#entry(
+  title: "Développeur Web",
+  date: "07/2004 - 07/2006",
+  institution: "Boonty (devenu Nexway)",
+  location: "Paris, France",
+)[]
+
+#entry(
+  title: "Webmaster ",
+  date: "06/1999 - 06/2004",
+  institution: "Indépendant",
+  location: "Paris, France",
+)[]
+
+= Etudes
 
 #entry(
   title: "DEA Réalité Virtuelle et Maîtrise des Systèmes Complexes",
@@ -168,11 +181,23 @@
   [Sujet de recherche: _"Comparaison des algorithmes de classification pour la segmentation multitexturées"_.],
 )
 
+#colbreak()
+
+= Etudes - Détails
+
 #entry(
-  title: "Licence et Maîtrise d'Informatique",
+  title: "DEA Réalité Virtuelle et Maîtrise des Systèmes Complexes - Mention Bien",
+  date: "2002",
+  institution: "Institut National de Sciences et Techniques Nucléaires (INSTN)",
+  location: "Sacclay (91), France",
+  [Sujet de recherche: _"Comparaison des algorithmes de classification pour la segmentation multitexturées"_.],
+)
+
+#entry(
+  title: "Licence et Maîtrise d'Informatique - Mention Bien",
   date: "2001",
   institution: "Université de Picardie Jules Verne",
-  location: "Amiens, France",
+  location: "Amiens (80), France",
   [Mémoire: _"Complexité des algorithmes quantiques"_.],
 )
 
@@ -180,90 +205,50 @@
   title: "Diplôme Universitaire de Technologie (DUT) Informatique",
   date: "1999",
   institution: "Institut Universitaire de Technologie (IUT) d'Amiens",
-  location: "Amiens, France",
+  location: "Amiens (80), France",
   [Mémoire: _"Recherche de chemins pour une horde de robots"_.],
 )
 
+#entry(
+  title: "Baccalauréat Scientifique - Mention Bien",
+  date: "1996",
+  institution: "Lycée Jean Moulin",
+  location: "Les Andelys (27), France", 
+  [Spécialité: _"Sciences de l'Ingénieur"_, Option: _"Informatique"_],
+)
 
-// = Grants and Awards
+= Certifications
 
-// #entry(
-//   title: "Lifetime Achievement in Innovation",
-//   date: "1990",
-//   institution: "International Society of Inventors",
-//   location: "Geneva, Switzerland",
-//   "Recognized for a lifetime of inventive contributions to science and engineering.",
-// )
+#entry(
+  title: "Certification Scrum Master",
+  date: "2008",
+  institution: "Scrum Alliance",
+)[]
 
-// #entry(
-//   title: "Best Experimental Demonstration",
-//   date: "1986",
-//   institution: "World Science Congress",
-//   location: "London, UK",
-//   "Awarded for the live demonstration of the DeLorean Time Machine prototype.",
-// )
+#entry(
+  title: "Professional Scrum Master",
+  date: "2015",
+  institution: "Scrum.org",
+)[]
 
-// #entry(
-//   title: "Hill Valley Science Achievement Award",
-//   date: "1985",
-//   institution: "Hill Valley Science Society",
-//   location: "Hill Valley, CA, USA",
-//   "Awarded for outstanding contributions to science and innovation in the community.",
-// )
+#entry(
+  title: "Professional Scrum with Kanban",
+  date: "2017",
+  institution: "Scrum.org",
+)[]
 
-// #colbreak()
+#entry(
+  title: "Scaled Professional Scrum (Nexus)",
+  date: "2017",
+  institution: "Scrum.org",
+)[]
 
-// = Talks
+#entry(
+  title: "SAFe Program Consultant (SPC4 et SPC5)",
+  date: "2018",
+  institution: "Scaled Agile, Inc.",
+)[]
 
-// #entry(
-//   title: "From DeLorean to Locomotive: Engineering Time Machines",
-//   date: "1991",
-//   institution: "Society of Inventors Annual Meeting",
-//   location: "San Francisco, CA, USA",
-//   "Panelist on the evolution of time travel technology.",
-// )
 
-// #entry(
-//   title: "Paradoxes and Causality: Lessons from Time Travel",
-//   date: "1986",
-//   institution: "World Science Congress",
-//   location: "London, UK",
-//   "Invited talk on managing paradoxes and causality in theoretical physics.",
-// )
+= Expérience détaillée
 
-// #entry(
-//   title: "The Flux Capacitor: A New Era in Temporal Mechanics",
-//   date: "1985",
-//   institution: "International Physics Symposium",
-//   location: "Geneva, Switzerland",
-//   "Keynote on the invention and implications of the flux capacitor.",
-// )
-
-// = Publications
-
-// #publications(yaml("publications.yml"), highlight-authors: (
-//   "Brown, Emmett",
-//   "Brown, Emmett Lathrop",
-// ))
-
-// = References
-
-// #entry(
-//   title: "Marty McFly",
-//   institution: "Musician & Time Traveler",
-//   location: "Hill Valley, CA, USA",
-//   [
-//     Long-term collaborator and field assistant in temporal experiments.\
-//     Contact: #email-link("marty.mcfly@hillvalley.com")
-//   ],
-// )
-
-// #entry(
-//   title: "Clara Clayton",
-//   institution: "Science Educator",
-//   location: "Hill Valley, CA, USA",
-//   [
-//     Advisor on science communication and educational outreach.\
-//     Contact: #email-link("clara.clayton@hillvalley.edu")
-//   ],
-// )
