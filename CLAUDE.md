@@ -108,26 +108,35 @@ Tasks use the format `XXX-NNN` where:
 - **LAY** (Layout) - Visual layout, design, styling
 - **DOC** (Documentation) - Documentation and guides
 
-### Working with Tasks
+### Task Automation
 
-**Create a new task:**
-1. Choose the appropriate trigramme (e.g., CNT for content)
-2. Find the next available number for that trigramme
-3. Copy [TASKS/TEMPLATE.md](TASKS/TEMPLATE.md)
-4. Create `TASKS/XXX-NNN-task-name.md`
-5. Fill in all template fields
-6. Add entry to [TASKS.md](TASKS.md)
+The task management system is fully automated via Claude commands. See [.claude/commands/README.md](.claude/commands/README.md) for complete documentation.
 
-**Work on a task:**
-1. Update status to "🔄 En cours" in the task file
-2. Reference the task ID in commits: `Refs XXX-NNN`
-3. Check off subtasks as you complete them
+**Quick Commands:**
 
-**Complete a task:**
-1. Mark all subtasks as done
-2. Update status to "✅ Terminé"
-3. Make final commit with `Closes XXX-NNN`
-4. Move to "Completed" section in [TASKS.md](TASKS.md)
+- `/task-create` - Create a new task interactively
+- `/task-start <ID>` - Start working on a task (creates Git branch, updates status)
+- `/task-complete <ID>` - Complete a task (validates DoD, creates final commit)
+- `/task-next` - Get intelligent suggestion for next task to work on
+- `/task-validate` - Validate system consistency
+- `/task-archive <ID>` - Archive a completed task
+
+**Rules and Quality Gates:**
+
+The system enforces Definition of Ready (DoR) and Definition of Done (DoD) criteria. See [TASK_RULES.md](TASK_RULES.md) for:
+- Criteria for starting a task (DoR)
+- Criteria for completing a task (DoD)
+- Workflow steps and quality gates
+- Error handling and recovery
+
+**Manual Workflow (if needed):**
+
+If automation is unavailable, follow the manual process:
+
+1. **Create:** Copy [TASKS/TEMPLATE.md](TASKS/TEMPLATE.md), fill fields, add to [TASKS.md](TASKS.md)
+2. **Start:** Update status to "🔄 En cours", create branch `task/XXX-NNN-slug`
+3. **Work:** Reference task in commits with `Refs XXX-NNN`
+4. **Complete:** Update status to "✅ Terminé", commit with `Closes XXX-NNN`, move in [TASKS.md](TASKS.md)
 
 **Current tasks:**
 See [TASKS.md](TASKS.md) for the full list of active, pending, and completed tasks.

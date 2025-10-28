@@ -42,17 +42,19 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 | ID | Titre | Statut | Priorité | Créé le |
 |----|-------|--------|----------|---------|
 | [CNT-001](TASKS/CNT-001-linkedin-audit.md) | Audit LinkedIn | ⏳ À faire | 🔴 Haute | 2025-10-28 |
-| [TPL-001](TASKS/TPL-001-cv-versions.md) | Versions courte et longue du CV | ⏳ À faire | 🔴 Haute | 2025-10-28 |
+| [TPL-001](TASKS/TPL-001-cv-versions.md) | Versions courte et longue du CV | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
 | [QUA-001](TASKS/QUA-001-verification.md) | Étapes de vérification du CV | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
-| [TPL-002](TASKS/TPL-002-template-system.md) | Système de changement de template | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
-| [PIP-001](TASKS/PIP-001-cicd-pipeline.md) | CI/CD pour publication automatique | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
-| [INF-001](TASKS/INF-001-mcp-integration.md) | Intégration MCP pour vérification Claude | ⏳ À faire | 🟢 Basse | 2025-10-28 |
+| [TPL-002](TASKS/TPL-002-template-system.md) | Système de changement de template | ⏳ À faire | 🟢 Basse | 2025-10-28 |
+| [PIP-001](TASKS/PIP-001-cicd-pipeline.md) | CI/CD pour publication automatique | ⏳ À faire | 🟢 Basse | 2025-10-28 |
+| [INF-001](TASKS/INF-001-mcp-integration.md) | Intégration MCP pour vérification Claude | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
 
 ---
 
 ## Tâches terminées
 
-Aucune tâche terminée pour le moment.
+| ID | Titre | Statut | Priorité | Terminé le |
+|----|-------|--------|----------|------------|
+| [DOC-001](TASKS/DOC-001-task-management-automation.md) | Système d'automatisation de gestion des tâches | ✅ Terminé | 🔴 Haute | 2025-10-28 |
 
 Les tâches archivées sont déplacées dans [.archived-tasks/](.archived-tasks/).
 
@@ -119,15 +121,15 @@ Closes TPL-001"
 
 ## Statistiques
 
-- **Total**: 6 tâches
+- **Total**: 7 tâches
 - **À faire**: 6
 - **En cours**: 0
-- **Terminées**: 0
+- **Terminées**: 1
 - **Bloquées**: 0
 
 **Prochains IDs disponibles par trigramme**:
 
-- CNT-002, TPL-003, QUA-002, PIP-002, INF-002, LAY-001, DOC-001
+- CNT-002, TPL-003, QUA-002, PIP-002, INF-002, LAY-001, DOC-002
 
 ---
 
