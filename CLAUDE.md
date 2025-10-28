@@ -84,3 +84,7 @@ The `publications.yml` file uses Typst's bibliography format with YAML structure
 - Font size: 10pt
 - Color scheme: Professional blue (#4682b4 accent, #3b4f60 headers)
 - The CV is structured as a two-page document with a column break after initial education section
+
+## Git Workflow
+
+This project follows a simple Git workflow with conventional commits and emojis. See [GIT_WORKFLOW.md](GIT_WORKFLOW.md) for detailed commit conventions and guidelines.
