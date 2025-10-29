@@ -43,9 +43,9 @@ Une navigation plus simple dans le repository, et une capacité à implémenter 
 - [ ] Modifier les commandes `/task-*` en conséquences
 - [ ] Modifier le fichier CLAUDE.md en conséquences
 - [ ] Vérifier et ajuster les dépendances dans l'ensemble des tâches : fichier TASKS.md, TASK_RULES.md, IDEAS.md, GIT_WORKFLOW.md et `TASKS/*.md`
-- [ ] Disposer d'un dossier de build ou dist, qui comportera tous les CV construits dans ce repo
+- [x] Disposer d'un dossier de build ou dist, qui comportera tous les CV construits dans ce repo
 - [ ] Ajuster le .gitignore
-- [ ] Créer/adapter la configuration typst et créer des scripts ou un makefile-like afin de gérer les compilations typst correctement
+- [x] Créer/adapter la configuration typst et créer des scripts ou un makefile-like afin de gérer les compilations typst correctement
 
 ---
 
