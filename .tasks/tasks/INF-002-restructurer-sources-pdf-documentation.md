@@ -8,15 +8,15 @@
 |-------|--------|
 | **ID** | INF-002 |
 | **Titre** | Restructurer les sources, PDF et documentation |
-| **Statut** | 🔄 En cours |
+| **Statut** | ✅ Terminé |
 | **Priorité** | 🔴 Haute |
 | **Trigramme** | INF |
 | **Section CV** | N/A |
 | **Créé le** | 2025-10-29 |
 | **Cible** | - |
-| **Terminé le** | (à remplir lors de la complétion) |
+| **Terminé le** | 2025-10-29 |
 | **Temps estimé** | 1 heure |
-| **Temps réel** | (à remplir après) |
+| **Temps réel** | 1 heure |
 
 ---
 
@@ -195,21 +195,34 @@ Closes INF-002"
 |------|--------|---------|
 | 2025-10-29 | Création | Tâche créée depuis une idée du backlog |
 | 2025-10-29 | En cours | Début du travail |
+| 2025-10-29 | Terminé | Tâche complétée |
 
 ---
 
 ## Résultat final
 
-[À remplir une fois la tâche terminée]
-
 **Ce qui a été fait:**
 
-- [Liste des réalisations]
+- Créé nouvelle structure de répertoires professionnelle (src/, dist/, docs/, .tasks/, scripts/)
+- Déplacé sources Typst vers src/ avec assets/ et data/
+- Installé et configuré `just` pour l'automatisation du build
+- Créé scripts de build (justfile, build.sh, watch.sh)
+- Déplacé task management vers .tasks/ (réduction encombrement racine)
+- Mis à jour 8 commandes Claude avec sed (bulk path updates)
+- Corrigé tous les liens relatifs dans 9 tâches + TEMPLATE.md
+- Réécrit CLAUDE.md avec nouvelle structure
+- Configuré .gitignore pour ignorer dist/ et artefacts
+- Créé README.md complet avec documentation
+- 17 commits sur branche dédiée
+- Tous les tests passent (build, validate, git status)
 
 **Difficultés rencontrées:**
 
-- [Problèmes et solutions]
+- Besoin de recherche pour confirmer que CLAUDE.md doit rester à la racine (contrainte Claude Code)
+- Installation de `just` requise avant utilisation
+- Nombreux liens relatifs à mettre à jour (résolu avec sed en bulk)
+- Quelques PDFs temporaires à nettoyer (src/cv.pdf, cv.pdf)
 
 **Améliorations futures:**
 
-- [Idées pour aller plus loin]
+Aucune pour l'instant.
