@@ -53,7 +53,7 @@ Mettre en place une architecture modulaire permettant:
 - [ ] Tester avec au moins 2 templates différents (neat-cv + 1 autre)
 - [ ] Créer un script de build multi-templates
 - [ ] Documenter le système dans `TEMPLATES.md`
-- [ ] Mettre à jour [CLAUDE.md](../CLAUDE.md)
+- [ ] Mettre à jour [CLAUDE.md](../../CLAUDE.md)
 
 ---
 
@@ -117,8 +117,8 @@ Mettre en place une architecture modulaire permettant:
 
 **Fichiers à modifier:**
 
-- [cv.typ](../cv.typ) - Refactoriser pour utiliser l'architecture modulaire
-- [CLAUDE.md](../CLAUDE.md) - Ajouter documentation sur les templates
+- [cv.typ](../../src/cv.typ) - Refactoriser pour utiliser l'architecture modulaire
+- [CLAUDE.md](../../CLAUDE.md) - Ajouter documentation sur les templates
 
 ---
 
@@ -161,8 +161,8 @@ Mettre en place une architecture modulaire permettant:
 
 ### Fichiers du projet
 
-- [cv.typ](../cv.typ) - CV actuel à refactoriser
-- [CLAUDE.md:27-29](../CLAUDE.md#L27-L29) - Section sur neat-cv template
+- [cv.typ](../../src/cv.typ) - CV actuel à refactoriser
+- [CLAUDE.md:27-29](../../CLAUDE.md#L27-L29) - Section sur neat-cv template
 
 ### Tâches liées
 

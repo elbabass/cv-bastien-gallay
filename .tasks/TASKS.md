@@ -6,7 +6,7 @@ Système de gestion des tâches pour l'évolution du CV Typst.
 
 Ce fichier sert de tableau de bord central pour toutes les tâches liées au projet de CV. Chaque tâche possède un identifiant unique au format `XXX-NNN` (trigramme de catégorie + numéro auto-incrémenté sur 3 chiffres).
 
-Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASKS/](TASKS/).
+Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASKS/](tasks/).
 
 ## Convention d'identifiants
 
@@ -41,13 +41,13 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 
 | ID | Titre | Statut | Priorité | Créé le |
 |----|-------|--------|----------|---------|
-| [CNT-001](TASKS/CNT-001-linkedin-audit.md) | Audit LinkedIn | ⏳ À faire | 🔴 Haute | 2025-10-28 |
-| [INF-002](TASKS/INF-002-restructurer-sources-pdf-documentation.md) | Restructurer les sources, PDF et documentation | 🔄 En cours | 🔴 Haute | 2025-10-29 |
-| [TPL-001](TASKS/TPL-001-cv-versions.md) | Versions courte et longue du CV | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
-| [QUA-001](TASKS/QUA-001-verification.md) | Étapes de vérification du CV | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
-| [TPL-002](TASKS/TPL-002-template-system.md) | Système de changement de template | ⏳ À faire | 🟢 Basse | 2025-10-28 |
-| [PIP-001](TASKS/PIP-001-cicd-pipeline.md) | CI/CD pour publication automatique | ⏳ À faire | 🟢 Basse | 2025-10-28 |
-| [INF-001](TASKS/INF-001-mcp-integration.md) | Intégration MCP pour vérification Claude | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
+| [CNT-001](tasks/CNT-001-linkedin-audit.md) | Audit LinkedIn | ⏳ À faire | 🔴 Haute | 2025-10-28 |
+| [INF-002](tasks/INF-002-restructurer-sources-pdf-documentation.md) | Restructurer les sources, PDF et documentation | 🔄 En cours | 🔴 Haute | 2025-10-29 |
+| [TPL-001](tasks/TPL-001-cv-versions.md) | Versions courte et longue du CV | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
+| [QUA-001](tasks/QUA-001-verification.md) | Étapes de vérification du CV | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
+| [TPL-002](tasks/TPL-002-template-system.md) | Système de changement de template | ⏳ À faire | 🟢 Basse | 2025-10-28 |
+| [PIP-001](tasks/PIP-001-cicd-pipeline.md) | CI/CD pour publication automatique | ⏳ À faire | 🟢 Basse | 2025-10-28 |
+| [INF-001](tasks/INF-001-mcp-integration.md) | Intégration MCP pour vérification Claude | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
 
 ---
 
@@ -55,7 +55,7 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 
 | ID | Titre | Statut | Priorité | Terminé le |
 |----|-------|--------|----------|------------|
-| [DOC-001](TASKS/DOC-001-task-management-automation.md) | Système d'automatisation de gestion des tâches | ✅ Terminé | 🔴 Haute | 2025-10-28 |
+| [DOC-001](tasks/DOC-001-task-management-automation.md) | Système d'automatisation de gestion des tâches | ✅ Terminé | 🔴 Haute | 2025-10-28 |
 
 Les tâches archivées sont déplacées dans [.archived-tasks/](.archived-tasks/).
 
@@ -67,7 +67,7 @@ Les tâches archivées sont déplacées dans [.archived-tasks/](.archived-tasks/
 
 1. Choisir le trigramme approprié (CNT, TPL, QUA, etc.)
 2. Identifier le prochain numéro disponible pour ce trigramme (ex: TPL-003)
-3. Copier le template depuis [TASKS/TEMPLATE.md](TASKS/TEMPLATE.md)
+3. Copier le template depuis [TASKS/TEMPLATE.md](tasks/TEMPLATE.md)
 4. Créer le fichier `TASKS/XXX-NNN-nom-de-la-tache.md`
 5. Remplir tous les champs du template
 6. Ajouter la ligne correspondante dans ce fichier (section "Tâches actives")
@@ -136,6 +136,6 @@ Closes TPL-001"
 
 ## Références
 
-- [Template de tâche](TASKS/TEMPLATE.md)
+- [Template de tâche](tasks/TEMPLATE.md)
 - [CLAUDE.md](CLAUDE.md) - Instructions pour Claude Code
 - [GIT_WORKFLOW.md](GIT_WORKFLOW.md) - Convention de commits

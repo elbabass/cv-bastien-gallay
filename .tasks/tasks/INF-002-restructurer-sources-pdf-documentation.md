@@ -42,7 +42,7 @@ Une navigation plus simple dans le repository, et une capacité à implémenter 
 - [x] Modifier l'infrastructure des tâches afin de les déplacer vers un dossier racine dédié (trop de fichiers de gestion à la racine)
 - [x] Modifier les commandes `/task-*` en conséquences
 - [ ] Modifier le fichier CLAUDE.md en conséquences
-- [ ] Vérifier et ajuster les dépendances dans l'ensemble des tâches : fichier TASKS.md, TASK_RULES.md, IDEAS.md, GIT_WORKFLOW.md et `TASKS/*.md`
+- [x] Vérifier et ajuster les dépendances dans l'ensemble des tâches : fichier TASKS.md, TASK_RULES.md, IDEAS.md, GIT_WORKFLOW.md et `TASKS/*.md`
 - [x] Disposer d'un dossier de build ou dist, qui comportera tous les CV construits dans ce repo
 - [ ] Ajuster le .gitignore
 - [x] Créer/adapter la configuration typst et créer des scripts ou un makefile-like afin de gérer les compilations typst correctement
@@ -72,11 +72,11 @@ Lors de la restructuration, suivre ces principes :
 
 - [TASKS.md](../TASKS.md) - Dashboard des tâches
 - [TASK_RULES.md](../TASK_RULES.md) - Règles de gestion
-- [CLAUDE.md](../CLAUDE.md) - Instructions projet
-- [GIT_WORKFLOW.md](../GIT_WORKFLOW.md) - Convention Git
-- [.claude/commands/](../.claude/commands/) - Commandes de tâches
-- [cv.typ](../cv.typ) - Fichier source principal
-- [.gitignore](../.gitignore) - Fichiers ignorés
+- [CLAUDE.md](../../CLAUDE.md) - Instructions projet
+- [GIT_WORKFLOW.md](../../docs/GIT_WORKFLOW.md) - Convention Git
+- [.claude/commands/](../../.claude/commands/) - Commandes de tâches
+- [cv.typ](../../src/cv.typ) - Fichier source principal
+- [.gitignore](../../.gitignore) - Fichiers ignorés
 
 **Structure proposée (exemple à affiner) :**
 
@@ -124,10 +124,10 @@ neat-cv/
 
 ### Fichiers du projet
 
-- [cv.typ](../cv.typ) - Fichier source principal à déplacer
-- [CLAUDE.md](../CLAUDE.md) - À déplacer et mettre à jour
+- [cv.typ](../../src/cv.typ) - Fichier source principal à déplacer
+- [CLAUDE.md](../../CLAUDE.md) - À déplacer et mettre à jour
 - [TASKS.md](../TASKS.md) - À déplacer et mettre à jour
-- [.claude/commands/](../.claude/commands/) - Commandes à adapter
+- [.claude/commands/](../../.claude/commands/) - Commandes à adapter
 
 ### Tâches liées
 

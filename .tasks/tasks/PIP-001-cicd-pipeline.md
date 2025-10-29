@@ -88,7 +88,7 @@ Avantages:
 
 **Fichiers à modifier:**
 
-- [CLAUDE.md](../CLAUDE.md) - Ajouter section CI/CD
+- [CLAUDE.md](../../CLAUDE.md) - Ajouter section CI/CD
 
 ---
 
@@ -110,8 +110,8 @@ Avantages:
 
 ### Fichiers du projet
 
-- [cv.typ](../cv.typ) - CV à compiler
-- [CLAUDE.md](../CLAUDE.md) - À compléter avec CI/CD
+- [cv.typ](../../src/cv.typ) - CV à compiler
+- [CLAUDE.md](../../CLAUDE.md) - À compléter avec CI/CD
 
 ### Tâches liées
 

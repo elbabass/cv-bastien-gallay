@@ -63,8 +63,8 @@
 
 **Fichiers à consulter:**
 
-- [cv.typ](../cv.typ) (lignes X-Y)
-- [CLAUDE.md](../CLAUDE.md)
+- [cv.typ](../../src/cv.typ) (lignes X-Y)
+- [CLAUDE.md](../../CLAUDE.md)
 
 ---
 
@@ -80,8 +80,8 @@
 
 ### Fichiers du projet
 
-- [cv.typ:X-Y](../cv.typ#LX-LY) - [Description]
-- [CLAUDE.md](../CLAUDE.md) - [Section pertinente]
+- [cv.typ:X-Y](../../src/cv.typ#LX-LY) - [Description]
+- [CLAUDE.md](../../CLAUDE.md) - [Section pertinente]
 
 ### Tâches liées
 
