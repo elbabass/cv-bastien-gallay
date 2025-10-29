@@ -55,6 +55,7 @@ Choisissez une idée (1-3) ou 0 pour annuler: _
 ```
 
 **Validation:**
+
 - Numéro entre 1 et N (nombre total d'idées)
 - 0 pour annuler
 - Autre input: redemander
@@ -81,7 +82,8 @@ Une fois l'idée sélectionnée, extraire:
 Lancer le processus de création similaire à `/task-create` mais avec **pré-remplissage**:
 
 1. **Trigramme** (pré-rempli, éditable)
-   ```
+
+   ```markdown
    1. Trigramme:
       Suggestion basée sur l'idée: DOC
 
@@ -89,7 +91,8 @@ Lancer le processus de création similaire à `/task-create` mais avec **pré-re
    ```
 
 2. **Titre** (pré-rempli, éditable)
-   ```
+
+   ```markdown
    2. Titre de la tâche (max 80 caractères):
       Suggestion: Suggérer des réponses automatiques aux questions...
 
@@ -97,18 +100,21 @@ Lancer le processus de création similaire à `/task-create` mais avec **pré-re
    ```
 
 3. **Slug** (auto-généré depuis le titre)
-   ```
+
+   ```markdown
    3. Slug proposé: suggerer-reponses-automatiques
       Confirmer ou modifier: [confirmer]
    ```
 
 4. **Priorité** (demander, défaut: Moyenne)
-   ```
+
+   ```markdown
    4. Priorité (Haute/Moyenne/Basse) [Moyenne]:
    ```
 
 5. **Description - Contexte** (pré-rempli avec source)
-   ```
+
+   ```markdown
    5. Description - Contexte:
       Suggestion: Idée issue de la tâche DOC-001 (2025-10-28).
 
@@ -116,27 +122,32 @@ Lancer le processus de création similaire à `/task-create` mais avec **pré-re
    ```
 
 6. **Description - Objectif** (demander)
-   ```
+
+   ```markdown
    6. Description - Objectif:
    ```
 
 7. **Sous-tâches** (demander normalement)
-   ```
+
+   ```markdown
    7. Sous-tâches (optionnel, une par ligne, tapez 'fin'):
    ```
 
 8. **Section CV** (demander normalement)
-   ```
+
+   ```markdown
    8. Section CV (Experience/Education/Skills/Sidebar/General/N/A) [General]:
    ```
 
 9. **Date cible** (demander normalement)
-   ```
+
+   ```markdown
    9. Date cible (YYYY-MM-DD ou 'aucune') [aucune]:
    ```
 
 10. **Temps estimé** (demander normalement)
-    ```
+
+    ```markdown
     10. Temps estimé (heures) [vide]:
     ```
 
@@ -156,6 +167,7 @@ Identique à `/task-create`:
    - Si c'était la seule idée de la section: remettre "*Aucune idée pour l'instant*"
 
 2. **Confirmation**
+
    ```text
    ✓ Idée retirée du backlog IDEAS.md
    ```
@@ -189,6 +201,7 @@ Utilisez `/task-start DOC-002` pour commencer à travailler dessus.
 ## Validation
 
 Avant de créer la tâche:
+
 - ✓ Une idée a été sélectionnée
 - ✓ L'ID généré est unique
 - ✓ Tous les champs obligatoires sont remplis
@@ -249,6 +262,7 @@ Voulez-vous créer une tâche normalement? (/task-create)
 ## Mode Verbose
 
 Avec `--verbose`, afficher:
+
 - Contenu complet de IDEAS.md lu
 - Parsing détaillé de chaque idée
 - Extraction des métadonnées
@@ -258,15 +272,18 @@ Avec `--verbose`, afficher:
 ## Avantages de cette Approche
 
 **Traçabilité:**
+
 - Lien direct entre l'idée originale et la nouvelle tâche
 - Contexte automatiquement rempli avec la source
 
 **Efficacité:**
+
 - Pas besoin de se rappeler des idées précédentes
 - Titre et trigramme déjà suggérés
 - Gain de temps sur la saisie
 
 **Organisation:**
+
 - Backlog centralisé et structuré
 - Priorisation facilitée (choisir parmi toutes les idées)
 - Évite les oublis
