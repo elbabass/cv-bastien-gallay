@@ -37,7 +37,7 @@ Une navigation plus simple dans le repository, et une capacité à implémenter 
 
 ## Sous-tâches
 
-- [ ] Réfléchir et proposer une structure correcte pour ce repo
+- [x] Réfléchir et proposer une structure correcte pour ce repo
 - [ ] Séparer les fichiers `*.typ` et leurs dépendances du reste des fichiers
 - [ ] Modifier l'infrastructure des tâches afin de les déplacer vers un dossier racine dédié (trop de fichiers de gestion à la racine)
 - [ ] Modifier les commandes `/task-*` en conséquences
