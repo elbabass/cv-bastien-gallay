@@ -25,6 +25,7 @@ Ce fichier collecte les idées d'améliorations futures issues des tâches termi
 ## Pipeline (PIP)
 
 - [ ] Dans les commandes de gestion des tâches, privilégier des questionnaires posant plusieurs questions numérotées à la suite plutôt que des questions uniques successives
+- [ ] `/task-next` pourrait bénéficier d'un cache pour accélérer la recherche de la prochaine tâche à faire (Spike, expérimentation nécessaire)
 
 ---
 
