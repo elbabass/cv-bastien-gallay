@@ -46,7 +46,7 @@ Produire un document de référence listant tous les éléments du profil Linked
 - [ ] Extraire toutes les compétences (skills)
 - [ ] Extraire toutes les certifications
 - [ ] Extraire les projets, publications, langues
-- [ ] Comparer avec le contenu actuel de [cv.typ](../cv.typ)
+- [ ] Comparer avec le contenu actuel de [cv.typ](../../src/cv.typ)
 - [ ] Documenter les écarts dans un fichier de sortie
 - [ ] Créer une liste priorisée des éléments à ajouter
 
@@ -60,7 +60,7 @@ Produire un document de référence listant tous les éléments du profil Linked
 
 1. Utiliser l'outil WebFetch pour accéder à <https://www.linkedin.com/in/bastiengallay/>
 2. Extraire tout le contenu du profil (expériences, formation, compétences, certifications, etc.)
-3. Lire le fichier [cv.typ](../cv.typ) pour identifier ce qui est déjà présent
+3. Lire le fichier [cv.typ](../../src/cv.typ) pour identifier ce qui est déjà présent
 4. Créer un document `TASKS/BG-001-linkedin-audit-results.md` avec:
    - Section "Éléments déjà dans le CV" (avec références lignes)
    - Section "Éléments manquants à ajouter"
@@ -69,7 +69,7 @@ Produire un document de référence listant tous les éléments du profil Linked
 
 **Fichiers à consulter:**
 
-- [cv.typ](../cv.typ) - Contenu actuel du CV
+- [cv.typ](../../src/cv.typ) - Contenu actuel du CV
 
 **Fichier de sortie:**
 
@@ -100,8 +100,8 @@ Produire un document de référence listant tous les éléments du profil Linked
 
 ### Fichiers du projet
 
-- [cv.typ:103-255](../cv.typ#L103-L255) - Section expériences et formation
-- [cv.typ:73-88](../cv.typ#L73-L88) - Section compétences
+- [cv.typ:103-255](../../src/cv.typ#L103-L255) - Section expériences et formation
+- [cv.typ:73-88](../../src/cv.typ#L73-L88) - Section compétences
 
 ### Tâches liées
 

@@ -51,7 +51,7 @@ Produire une structure de fichiers permettant de générer facilement les deux v
 
 ## Sous-tâches
 
-- [ ] Analyser le contenu actuel de [cv.typ](../cv.typ) (2 pages)
+- [ ] Analyser le contenu actuel de [cv.typ](../../src/cv.typ) (2 pages)
 - [ ] Identifier les sections essentielles pour la version courte
 - [ ] Concevoir l'architecture (fichiers séparés vs conditionnels)
 - [ ] Créer `cv-short.typ` (version 1 page)
@@ -59,7 +59,7 @@ Produire une structure de fichiers permettant de générer facilement les deux v
 - [ ] Optionnel: créer `cv-content.typ` pour le contenu partagé
 - [ ] Adapter le build script pour compiler les deux versions
 - [ ] Vérifier la mise en page des deux versions
-- [ ] Mettre à jour [CLAUDE.md](../CLAUDE.md) avec les nouvelles commandes
+- [ ] Mettre à jour [CLAUDE.md](../../CLAUDE.md) avec les nouvelles commandes
 - [ ] Tester la génération des deux PDFs
 
 ---
@@ -116,8 +116,8 @@ cv-long.typ     # Import + tout afficher
 
 **Fichiers à consulter:**
 
-- [cv.typ](../cv.typ) - CV actuel (2 pages)
-- [CLAUDE.md](../CLAUDE.md) - À mettre à jour avec nouvelles commandes
+- [cv.typ](../../src/cv.typ) - CV actuel (2 pages)
+- [CLAUDE.md](../../CLAUDE.md) - À mettre à jour avec nouvelles commandes
 
 **Commandes build à créer:**
 
@@ -169,8 +169,8 @@ typst compile cv-long.typ
 
 ### Fichiers du projet
 
-- [cv.typ](../cv.typ) - CV actuel complet
-- [CLAUDE.md:16-24](../CLAUDE.md#L16-L24) - Section commandes de build
+- [cv.typ](../../src/cv.typ) - CV actuel complet
+- [CLAUDE.md:16-24](../../CLAUDE.md#L16-L24) - Section commandes de build
 
 ### Tâches liées
 

@@ -92,7 +92,7 @@ Mettre en place un système de vérification comprenant:
 
 **Fichiers à modifier:**
 
-- [CLAUDE.md](../CLAUDE.md) - Ajouter section vérification
+- [CLAUDE.md](../../CLAUDE.md) - Ajouter section vérification
 
 ---
 
@@ -127,8 +127,8 @@ Mettre en place un système de vérification comprenant:
 
 ### Fichiers du projet
 
-- [cv.typ](../cv.typ) - CV à vérifier
-- [CLAUDE.md](../CLAUDE.md) - À compléter avec processus de vérification
+- [cv.typ](../../src/cv.typ) - CV à vérifier
+- [CLAUDE.md](../../CLAUDE.md) - À compléter avec processus de vérification
 
 ### Tâches liées
 

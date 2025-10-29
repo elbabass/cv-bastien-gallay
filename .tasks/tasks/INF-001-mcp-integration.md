@@ -116,7 +116,7 @@ mcp-server/
 - Configuration exemple
 
 **Fichiers à modifier:**
-- [CLAUDE.md](../CLAUDE.md) - Ajouter documentation MCP
+- [CLAUDE.md](../../CLAUDE.md) - Ajouter documentation MCP
 
 ---
 
@@ -159,8 +159,8 @@ mcp-server/
 
 ### Fichiers du projet
 
-- [cv.typ](../cv.typ) - CV à analyser
-- [CLAUDE.md](../CLAUDE.md) - À compléter avec MCP
+- [cv.typ](../../src/cv.typ) - CV à analyser
+- [CLAUDE.md](../../CLAUDE.md) - À compléter avec MCP
 - Scripts de vérification (QUA-001)
 
 ### Tâches liées

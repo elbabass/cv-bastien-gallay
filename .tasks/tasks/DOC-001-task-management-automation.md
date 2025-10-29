@@ -87,8 +87,8 @@ Réduire drastiquement la friction lors de la création, du démarrage, et de la
 
 - [TASKS.md](../TASKS.md) - Dashboard central
 - [TASKS/TEMPLATE.md](./TEMPLATE.md) - Structure de référence
-- [CLAUDE.md](../CLAUDE.md) - Documentation projet
-- [GIT_WORKFLOW.md](../GIT_WORKFLOW.md) - Conventions Git
+- [CLAUDE.md](../../CLAUDE.md) - Documentation projet
+- [GIT_WORKFLOW.md](../../docs/GIT_WORKFLOW.md) - Conventions Git
 
 ---
 
@@ -123,8 +123,8 @@ Réduire drastiquement la friction lors de la création, du démarrage, et de la
 
 - [TASKS.md](../TASKS.md) - Dashboard à maintenir synchronisé
 - [TASKS/TEMPLATE.md](./TEMPLATE.md) - Template à utiliser pour création
-- [CLAUDE.md:104-181](../CLAUDE.md#L104-L181) - Section task management actuelle
-- [GIT_WORKFLOW.md](../GIT_WORKFLOW.md) - Conventions de commits
+- [CLAUDE.md:104-181](../../CLAUDE.md#L104-L181) - Section task management actuelle
+- [GIT_WORKFLOW.md](../../docs/GIT_WORKFLOW.md) - Conventions de commits
 
 ### Tâches liées
 

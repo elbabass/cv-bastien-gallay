@@ -8,15 +8,15 @@
 |-------|--------|
 | **ID** | INF-002 |
 | **Titre** | Restructurer les sources, PDF et documentation |
-| **Statut** | ⏳ À faire |
+| **Statut** | ✅ Terminé |
 | **Priorité** | 🔴 Haute |
 | **Trigramme** | INF |
 | **Section CV** | N/A |
 | **Créé le** | 2025-10-29 |
 | **Cible** | - |
-| **Terminé le** | (à remplir lors de la complétion) |
+| **Terminé le** | 2025-10-29 |
 | **Temps estimé** | 1 heure |
-| **Temps réel** | (à remplir après) |
+| **Temps réel** | 1 heure |
 
 ---
 
@@ -37,15 +37,15 @@ Une navigation plus simple dans le repository, et une capacité à implémenter 
 
 ## Sous-tâches
 
-- [ ] Réfléchir et proposer une structure correcte pour ce repo
-- [ ] Séparer les fichiers `*.typ` et leurs dépendances du reste des fichiers
-- [ ] Modifier l'infrastructure des tâches afin de les déplacer vers un dossier racine dédié (trop de fichiers de gestion à la racine)
-- [ ] Modifier les commandes `/task-*` en conséquences
-- [ ] Modifier le fichier CLAUDE.md en conséquences
-- [ ] Vérifier et ajuster les dépendances dans l'ensemble des tâches : fichier TASKS.md, TASK_RULES.md, IDEAS.md, GIT_WORKFLOW.md et `TASKS/*.md`
-- [ ] Disposer d'un dossier de build ou dist, qui comportera tous les CV construits dans ce repo
-- [ ] Ajuster le .gitignore
-- [ ] Créer/adapter la configuration typst et créer des scripts ou un makefile-like afin de gérer les compilations typst correctement
+- [x] Réfléchir et proposer une structure correcte pour ce repo
+- [x] Séparer les fichiers `*.typ` et leurs dépendances du reste des fichiers
+- [x] Modifier l'infrastructure des tâches afin de les déplacer vers un dossier racine dédié (trop de fichiers de gestion à la racine)
+- [x] Modifier les commandes `/task-*` en conséquences
+- [x] Modifier le fichier CLAUDE.md en conséquences
+- [x] Vérifier et ajuster les dépendances dans l'ensemble des tâches : fichier TASKS.md, TASK_RULES.md, IDEAS.md, GIT_WORKFLOW.md et `TASKS/*.md`
+- [x] Disposer d'un dossier de build ou dist, qui comportera tous les CV construits dans ce repo
+- [x] Ajuster le .gitignore
+- [x] Créer/adapter la configuration typst et créer des scripts ou un makefile-like afin de gérer les compilations typst correctement
 
 ---
 
@@ -72,11 +72,11 @@ Lors de la restructuration, suivre ces principes :
 
 - [TASKS.md](../TASKS.md) - Dashboard des tâches
 - [TASK_RULES.md](../TASK_RULES.md) - Règles de gestion
-- [CLAUDE.md](../CLAUDE.md) - Instructions projet
-- [GIT_WORKFLOW.md](../GIT_WORKFLOW.md) - Convention Git
-- [.claude/commands/](../.claude/commands/) - Commandes de tâches
-- [cv.typ](../cv.typ) - Fichier source principal
-- [.gitignore](../.gitignore) - Fichiers ignorés
+- [CLAUDE.md](../../CLAUDE.md) - Instructions projet
+- [GIT_WORKFLOW.md](../../docs/GIT_WORKFLOW.md) - Convention Git
+- [.claude/commands/](../../.claude/commands/) - Commandes de tâches
+- [cv.typ](../../src/cv.typ) - Fichier source principal
+- [.gitignore](../../.gitignore) - Fichiers ignorés
 
 **Structure proposée (exemple à affiner) :**
 
@@ -124,10 +124,10 @@ neat-cv/
 
 ### Fichiers du projet
 
-- [cv.typ](../cv.typ) - Fichier source principal à déplacer
-- [CLAUDE.md](../CLAUDE.md) - À déplacer et mettre à jour
+- [cv.typ](../../src/cv.typ) - Fichier source principal à déplacer
+- [CLAUDE.md](../../CLAUDE.md) - À déplacer et mettre à jour
 - [TASKS.md](../TASKS.md) - À déplacer et mettre à jour
-- [.claude/commands/](../.claude/commands/) - Commandes à adapter
+- [.claude/commands/](../../.claude/commands/) - Commandes à adapter
 
 ### Tâches liées
 
@@ -194,21 +194,35 @@ Closes INF-002"
 | Date | Action | Détails |
 |------|--------|---------|
 | 2025-10-29 | Création | Tâche créée depuis une idée du backlog |
+| 2025-10-29 | En cours | Début du travail |
+| 2025-10-29 | Terminé | Tâche complétée |
 
 ---
 
 ## Résultat final
 
-[À remplir une fois la tâche terminée]
-
 **Ce qui a été fait:**
 
-- [Liste des réalisations]
+- Créé nouvelle structure de répertoires professionnelle (src/, dist/, docs/, .tasks/, scripts/)
+- Déplacé sources Typst vers src/ avec assets/ et data/
+- Installé et configuré `just` pour l'automatisation du build
+- Créé scripts de build (justfile, build.sh, watch.sh)
+- Déplacé task management vers .tasks/ (réduction encombrement racine)
+- Mis à jour 8 commandes Claude avec sed (bulk path updates)
+- Corrigé tous les liens relatifs dans 9 tâches + TEMPLATE.md
+- Réécrit CLAUDE.md avec nouvelle structure
+- Configuré .gitignore pour ignorer dist/ et artefacts
+- Créé README.md complet avec documentation
+- 17 commits sur branche dédiée
+- Tous les tests passent (build, validate, git status)
 
 **Difficultés rencontrées:**
 
-- [Problèmes et solutions]
+- Besoin de recherche pour confirmer que CLAUDE.md doit rester à la racine (contrainte Claude Code)
+- Installation de `just` requise avant utilisation
+- Nombreux liens relatifs à mettre à jour (résolu avec sed en bulk)
+- Quelques PDFs temporaires à nettoyer (src/cv.pdf, cv.pdf)
 
 **Améliorations futures:**
 
-- [Idées pour aller plus loin]
+Aucune pour l'instant.
