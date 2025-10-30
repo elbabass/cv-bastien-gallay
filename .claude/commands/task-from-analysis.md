@@ -29,31 +29,31 @@ Si `--analysis-id` n'est pas fourni:
 1. **Lire `.tasks/ANALYSES.md`**
 2. **Lister les analyses avec recommandations pendantes**:
 
-```text
-Analyses disponibles avec recommandations pendantes:
+   ```text
+   Analyses disponibles avec recommandations pendantes:
 
-1. CNT-001 - LinkedIn Audit
-   - Source: linkedin.com/in/bastiengallay
-   - Total: 19 recommandations
-   - Pending: 19 (1 très haute, 10 hautes, 8 moyennes, 8 basses)
-   - Fichier: resources/analyses/CNT-001/recommendations-status.md
+   1. CNT-001 - LinkedIn Audit
+      - Source: linkedin.com/in/bastiengallay
+      - Total: 19 recommandations
+      - Pending: 19 (1 très haute, 10 hautes, 8 moyennes, 8 basses)
+      - Fichier: resources/analyses/CNT-001/recommendations-status.md
 
-Sélectionner une analyse (1-N ou ID):
-```
+   Sélectionner une analyse (1-N ou ID):
+   ```
 
 3. **Valider la sélection**:
    - Vérifier que le fichier `recommendations-status.md` existe
    - Vérifier qu'il y a des recommandations pendantes (⏳ Pending)
 
-Si aucune analyse avec recommandations pendantes:
+   Si aucune analyse avec recommandations pendantes:
 
-```text
-ℹ️  Aucune analyse avec recommandations pendantes trouvée.
+   ```text
+   ℹ️  Aucune analyse avec recommandations pendantes trouvée.
 
-Suggestions:
-1. Créer une nouvelle analyse avec /analyze-source
-2. Vérifier l'état dans .tasks/ANALYSES.md
-```
+   Suggestions:
+   1. Créer une nouvelle analyse avec /analyze-source
+   2. Vérifier l'état dans .tasks/ANALYSES.md
+   ```
 
 ### Étape 2: Affichage des Recommandations
 

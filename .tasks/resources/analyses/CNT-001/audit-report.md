@@ -2,7 +2,7 @@
 
 **Analyse:** CNT-001
 **Date:** 2025-10-29
-**Profil LinkedIn:** https://www.linkedin.com/in/bastiengallay/
+**Profil LinkedIn:** <https://www.linkedin.com/in/bastiengallay/>
 **CV source:** [src/cv.typ](../../../src/cv.typ)
 
 ---
@@ -157,8 +157,8 @@ LinkedIn ne mentionne que les 2 diplômes universitaires (Master et Maîtrise), 
 
 | # | URL | Type | Priorité | Action |
 |---|-----|------|----------|--------|
-| 1 | http://bastien.gallay.org/ | Blog personnel | 🟡 MOYENNE | Ajouter dans section contact |
-| 2 | http://lemondedesparents.fr | Projet personnel | 🟢 BASSE | Optionnel |
+| 1 | <http://bastien.gallay.org/> | Blog personnel | 🟡 MOYENNE | Ajouter dans section contact |
+| 2 | <http://lemondedesparents.fr> | Projet personnel | 🟢 BASSE | Optionnel |
 
 **Note:** Le CV a une ligne commentée pour website ([src/cv.typ:15](../../../src/cv.typ#L15)):
 

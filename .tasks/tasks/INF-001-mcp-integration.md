@@ -27,6 +27,7 @@ Créer un serveur MCP (Model Context Protocol) permettant à Claude d'analyser e
 ### Contexte
 
 Le Model Context Protocol (MCP) permet de créer des outils personnalisés que Claude peut utiliser. Un serveur MCP dédié au CV permettrait à Claude de:
+
 - Lire le contenu du CV
 - Vérifier la qualité du contenu
 - Proposer des améliorations
@@ -35,6 +36,7 @@ Le Model Context Protocol (MCP) permet de créer des outils personnalisés que C
 ### Objectif
 
 Créer un serveur MCP avec les fonctionnalités suivantes:
+
 - Lecture du CV Typst
 - Analyse de la qualité du contenu
 - Vérification de la cohérence
@@ -74,7 +76,8 @@ Le MCP permet de créer des serveurs d'outils que Claude peut utiliser. Pour ce 
 5. **validate_changes** - Valider les modifications
 
 **Structure suggérée:**
-```
+
+```text
 mcp-server/
 ├── package.json
 ├── src/
@@ -91,11 +94,13 @@ mcp-server/
 ```
 
 **Technologies:**
+
 - Node.js / TypeScript
 - MCP SDK: `@modelcontextprotocol/sdk`
 - Parser Typst (si disponible)
 
 **Configuration Claude Desktop:**
+
 ```json
 {
   "mcpServers": {
@@ -111,11 +116,13 @@ mcp-server/
 ```
 
 **Fichiers à créer:**
+
 - `mcp-server/` (dossier complet)
 - `mcp-server/README.md` (documentation)
 - Configuration exemple
 
 **Fichiers à modifier:**
+
 - [CLAUDE.md](../../CLAUDE.md) - Ajouter documentation MCP
 
 ---
@@ -125,29 +132,34 @@ mcp-server/
 > Rappels, références, notes personnelles
 
 **Décisions à prendre:**
+
 - Implémenter en TypeScript ou Python?
 - Quelles fonctionnalités prioriser?
 - Faut-il intégrer avec les scripts de vérification existants ([QUA-001](./QUA-001-verification.md))?
 - Héberger le serveur MCP où? (local seulement ou distant?)
 
 **Use cases attendus:**
+
 - "Claude, analyse mon CV et dis-moi ce qui peut être amélioré"
 - "Claude, vérifie la cohérence des dates dans mon CV"
 - "Claude, suggère des reformulations pour la section expérience"
 - "Claude, valide mes changements avant que je commit"
 
 **Avantages:**
+
 - Feedback IA contextuel et spécialisé
 - Automatisation de la revue de CV
 - Intégration native avec Claude Code
 - Évolutif (ajout de nouvelles fonctionnalités)
 
 **Limitations:**
+
 - Nécessite Claude Desktop (ou API)
 - Configuration locale requise
 - Maintenance du serveur MCP
 
 **Après implémentation:**
+
 - Configurer dans Claude Desktop
 - Tester toutes les fonctionnalités
 - Documenter les use cases
@@ -169,10 +181,10 @@ mcp-server/
 
 ### Ressources
 
-- Model Context Protocol: https://modelcontextprotocol.io/
-- MCP SDK: https://github.com/modelcontextprotocol/sdk
-- Claude Desktop MCP: https://docs.claude.com/en/docs/claude-code/mcp
-- Exemples MCP: https://github.com/modelcontextprotocol/servers
+- Model Context Protocol: <https://modelcontextprotocol.io/>
+- MCP SDK: <https://github.com/modelcontextprotocol/sdk>
+- Claude Desktop MCP: <https://docs.claude.com/en/docs/claude-code/mcp>
+- Exemples MCP: <https://github.com/modelcontextprotocol/servers>
 
 ---
 
@@ -210,6 +222,7 @@ Closes INF-001"
 ```
 
 **Format suggéré:**
+
 - **Type**: feat (nouvelle fonctionnalité)
 - **Scope**: mcp, infrastructure
 - **Emoji**: ✨ (feature)
@@ -243,7 +256,8 @@ Closes INF-001"
 [À remplir une fois la tâche terminée]
 
 **Structure finale attendue:**
-```
+
+```text
 neat-cv/
 ├── mcp-server/
 │   ├── package.json

@@ -352,12 +352,14 @@ Le système d'analyses permet de comparer le CV avec des sources externes (Linke
 ### Définitions
 
 **Analyse:**
+
 - Un processus structuré de comparaison entre le CV et une source externe
 - Associée à une tâche (ex: CNT-001 LinkedIn Audit)
 - Produit un ensemble de recommandations tracées
 - Documentée dans `ANALYSES.md`
 
 **Recommandation:**
+
 - Une action concrète identifiée lors d'une analyse
 - Format ID: `{ANALYSIS-ID}-R{NN}` (ex: CNT-001-R05)
 - Classée par priorité: 🔴🔴 Très Haute, 🔴 Haute, 🟡 Moyenne, 🟢 Basse
@@ -370,17 +372,20 @@ Le système d'analyses permet de comparer le CV avec des sources externes (Linke
 **Commande:** `/task-create` (trigramme CNT)
 
 **Étapes:**
+
 1. Créer une tâche d'analyse (ex: "CNT-001 LinkedIn Audit")
 2. Démarrer la tâche avec `/task-start CNT-001`
 3. Extraire les données source avec `/analyze-source --task-id=CNT-001`
 
 **Fichiers créés:**
+
 - `.tasks/resources/audits/CNT-001/linkedin-profile.md` (données brutes)
 - `.tasks/resources/audits/CNT-001/cv-snapshot.md` (état CV au moment de l'audit)
 
 #### 2. Analyse Comparative
 
 **Étapes manuelles:**
+
 1. Utiliser `audit-template.md` comme base
 2. Créer `.tasks/resources/analyses/CNT-001/audit-report.md` (analyse complète)
 3. Créer `.tasks/resources/analyses/CNT-001/recommendations.md` (liste détaillée)
@@ -389,6 +394,7 @@ Le système d'analyses permet de comparer le CV avec des sources externes (Linke
 6. Créer `.tasks/resources/analyses/CNT-001/metrics.md` (statistiques)
 
 **Règles:**
+
 - Chaque recommandation doit avoir un ID unique `{ANALYSIS-ID}-R{NN}`
 - Chaque recommandation doit avoir une priorité (🔴🔴, 🔴, 🟡, 🟢)
 - Chaque recommandation doit référencer une ligne du CV (ex: `src/cv.typ:122`)
@@ -399,12 +405,14 @@ Le système d'analyses permet de comparer le CV avec des sources externes (Linke
 **Commande:** `/task-complete CNT-001`
 
 **Vérifications:**
+
 - Tous les fichiers d'analyse sont créés
 - ANALYSES.md est mis à jour avec l'entrée de l'analyse
 - La tâche CNT-001 référence les fichiers créés
 - Au moins 3 recommandations sont documentées
 
 **Résultat:**
+
 - L'analyse est documentée dans ANALYSES.md
 - Les recommandations sont prêtes à être transformées en tâches
 
@@ -413,6 +421,7 @@ Le système d'analyses permet de comparer le CV avec des sources externes (Linke
 **Commande:** `/task-from-analysis --analysis-id=CNT-001 --filter=high`
 
 **Comportement:**
+
 1. Liste les recommandations pendantes depuis `recommendations-status.md`
 2. Permet la sélection batch ('1,5,6', 'all', 'high', etc.)
 3. Pour chaque recommandation sélectionnée:
@@ -423,6 +432,7 @@ Le système d'analyses permet de comparer le CV avec des sources externes (Linke
 4. Met à jour les statistiques dans ANALYSES.md
 
 **Règles:**
+
 - La tâche créée doit référencer la recommandation d'origine
 - `recommendations-status.md` doit être mis à jour automatiquement
 - Les statistiques dans ANALYSES.md doivent être recalculées
@@ -430,12 +440,14 @@ Le système d'analyses permet de comparer le CV avec des sources externes (Linke
 #### 5. Exécution et Complétion
 
 **Workflow:**
+
 1. `/task-start CNT-002` (tâche issue de CNT-001-R05)
 2. Implémenter les changements dans le CV
 3. `/task-complete CNT-002`
 4. La recommandation CNT-001-R05 passe automatiquement à "✅ Completed"
 
 **Vérifications automatiques:**
+
 - Vérifier que la recommandation est marquée complétée
 - Mettre à jour les statistiques dans ANALYSES.md
 - Vérifier la traçabilité (tâche → recommandation → analyse)
@@ -443,15 +455,18 @@ Le système d'analyses permet de comparer le CV avec des sources externes (Linke
 ### Conventions de Nommage
 
 **IDs d'analyse:**
+
 - Format: `XXX-NNN` (ID de la tâche d'analyse)
 - Exemple: `CNT-001` pour "LinkedIn Audit"
 
 **IDs de recommandation:**
+
 - Format: `{ANALYSIS-ID}-R{NN}`
 - Exemple: `CNT-001-R05` (5ème recommandation de l'analyse CNT-001)
 - Numérotation séquentielle (R01, R02, ..., R99)
 
 **Fichiers d'audit:**
+
 - `linkedin-profile.md` - Profil LinkedIn extrait
 - `github-profile.md` - Profil GitHub extrait
 - `cv-externe-{source}.md` - CV externe
@@ -459,6 +474,7 @@ Le système d'analyses permet de comparer le CV avec des sources externes (Linke
 - `cv-snapshot.md` - État du CV au moment de l'audit
 
 **Fichiers d'analyse:**
+
 - `audit-report.md` - Rapport d'analyse comparative
 - `recommendations.md` - Recommandations détaillées
 - `recommendations-status.md` - Suivi des recommandations (fichier de travail)
@@ -468,21 +484,27 @@ Le système d'analyses permet de comparer le CV avec des sources externes (Linke
 ### Traçabilité Requise
 
 **Analyse → Recommandations:**
+
 - Chaque analyse doit lister toutes ses recommandations dans `recommendations.md`
 - Chaque recommandation doit référencer l'analyse dans son ID
 
 **Recommandation → Tâche:**
+
 - Chaque tâche issue d'une recommandation doit indiquer l'origine:
+
   ```markdown
   **Origine:** Recommandation [CNT-001-R05](../resources/analyses/CNT-001/recommendations-status.md#r05)
   ```
+
 - Le fichier `recommendations-status.md` doit être mis à jour avec l'ID de la tâche
 
 **Tâche → CV:**
+
 - Chaque recommandation doit référencer la ligne CV concernée
 - Exemple: `src/cv.typ:122` ou `src/cv.typ:220-250`
 
 **Complétion:**
+
 - Quand une tâche est complétée, la recommandation doit passer à "✅ Completed"
 - Les statistiques dans ANALYSES.md doivent refléter l'avancement
 
@@ -491,6 +513,7 @@ Le système d'analyses permet de comparer le CV avec des sources externes (Linke
 **Gate 1: Validation de l'Extraction**
 
 Avant de marquer l'extraction comme terminée:
+
 - Au moins 3 sections extraites avec du contenu
 - Métadonnées complètes (date, source, type)
 - Nom de fichier suit la convention
@@ -499,6 +522,7 @@ Avant de marquer l'extraction comme terminée:
 **Gate 2: Validation de l'Analyse**
 
 Avant de compléter une tâche d'analyse:
+
 - `audit-report.md` existe et contient au moins 3 écarts identifiés
 - `recommendations.md` existe avec au moins 3 recommandations
 - `recommendations-status.md` existe et suit le format standard
@@ -507,6 +531,7 @@ Avant de compléter une tâche d'analyse:
 **Gate 3: Validation de la Transformation**
 
 Lors de `/task-from-analysis`:
+
 - Vérifier que l'analyse existe dans ANALYSES.md
 - Vérifier que `recommendations-status.md` existe
 - Vérifier qu'il reste des recommandations pendantes
@@ -515,6 +540,7 @@ Lors de `/task-from-analysis`:
 **Gate 4: Validation de la Complétion**
 
 Lors de `/task-complete` sur une tâche issue d'analyse:
+
 - Vérifier que la recommandation d'origine existe
 - Mettre à jour automatiquement `recommendations-status.md`
 - Recalculer les statistiques dans ANALYSES.md

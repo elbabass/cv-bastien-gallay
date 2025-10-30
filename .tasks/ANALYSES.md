@@ -27,7 +27,7 @@ Chaque analyse peut générer plusieurs **recommandations** qui sont suivies ind
 
 | ID | Type | Source | Statut | Créé le | Recommandations | Tâches créées |
 |----|------|--------|--------|---------|----------------|--------------|
-| [CNT-001](resources/analyses/CNT-001/) | LinkedIn Audit | [linkedin.com/in/bastiengallay](https://linkedin.com/in/bastiengallay/) | ✅ Terminé | 2025-10-29 | 19 total (1 très haute, 10 hautes, 8 moyennes, 8 basses) | 0/19 |
+| [CNT-001](resources/analyses/CNT-001/) | LinkedIn Audit | [linkedin.com/in/bastiengallay](https://linkedin.com/in/bastiengallay/) | ✅ Terminé | 2025-10-29 | 19 total (1 très haute, 10 hautes, 5 moyennes, 3 basses) | 11/19 (58%) |
 
 ---
 
@@ -45,8 +45,8 @@ Les analyses sont archivées lorsque toutes leurs recommandations ont été trai
 - **En cours**: 0
 - **Terminées**: 1
 - **Recommandations totales**: 19
-- **Recommandations pendantes**: 19 (100%)
-- **Tâches créées depuis analyses**: 0
+- **Recommandations pendantes**: 8 (42%)
+- **Tâches créées depuis analyses**: 11
 
 ### Répartition par priorité
 

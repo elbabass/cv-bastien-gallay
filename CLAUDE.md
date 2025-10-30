@@ -9,6 +9,7 @@ This is a CV (curriculum vitae) project written in Typst, a modern markup-based 
 ## Key Commands
 
 ### Building the CV
+
 ```bash
 # Compile the CV to PDF
 just build
@@ -21,11 +22,12 @@ just build output.pdf
 ```
 
 ### Viewing the Output
+
 The compiled PDF is saved as `dist/cv.pdf`.
 
 ## Project Structure
 
-```
+```text
 neat-cv/
 ├── CLAUDE.md                  # This file - project instructions
 ├── .tasks/                    # Task management system
@@ -63,7 +65,9 @@ neat-cv/
 ## Typst and neat-cv Template
 
 ### Template Import
+
 The CV uses the `neat-cv` template imported with:
+
 ```typst
 #import "@preview/neat-cv:0.4.0": (
   contact-info, cv, email-link, entry, item-pills, item-with-level,
@@ -74,18 +78,21 @@ The CV uses the `neat-cv` template imported with:
 ### Key Components
 
 **Document Configuration** (lines 6-37):
+
 - Uses `cv.with()` to set global parameters
 - Configures personal information (name, email, phone, address, position)
 - Sets visual styling (accent color: `#4682b4`, header color: `#3b4f60`)
 - Profile picture, fonts, paper size (A4), and sidebar width
 
 **Sidebar** (`#side[]` block, lines 39-101):
+
 - Contact information and social links
 - Languages with proficiency levels using `item-with-level()`
 - Skills displayed as pills using `item-pills()`
 - About section and interests
 
 **Main Content** (lines 103-255):
+
 - Professional experience using `#entry()` components
 - Education history
 - Certifications
@@ -94,6 +101,7 @@ The CV uses the `neat-cv` template imported with:
 ### Content Guidelines
 
 When modifying the CV:
+
 - All content is in French
 - Experience entries use `#entry()` with title, date, institution, location, and description
 - Skills are displayed as pills using `item-pills()`
@@ -124,10 +132,12 @@ All tasks are documented in [.tasks/TASKS.md](.tasks/TASKS.md), which serves as 
 ### Task ID Convention
 
 Tasks use the format `XXX-NNN` where:
+
 - **XXX** = 3-letter category code (trigramme)
 - **NNN** = Auto-incremented number (001, 002, etc.)
 
 **Available trigrammes:**
+
 - **CNT** (Content) - CV content updates and information
 - **TPL** (Template) - Template structure and architecture
 - **QUA** (Quality) - Quality checks and verification
@@ -153,6 +163,7 @@ The task management system is fully automated via Claude commands. See [.claude/
 **Ideas Backlog:**
 
 Future improvement ideas are automatically collected in [.tasks/IDEAS.md](.tasks/IDEAS.md) when completing tasks. These ideas can be transformed into concrete tasks using `/task-from-idea`, which provides:
+
 - Interactive selection from available ideas
 - Pre-filled task creation (trigramme, title, context)
 - Automatic removal from backlog once transformed
@@ -161,6 +172,7 @@ Future improvement ideas are automatically collected in [.tasks/IDEAS.md](.tasks
 **Rules and Quality Gates:**
 
 The system enforces Definition of Ready (DoR) and Definition of Done (DoD) criteria. See [.tasks/TASK_RULES.md](.tasks/TASK_RULES.md) for:
+
 - Criteria for starting a task (DoR)
 - Criteria for completing a task (DoD)
 - Workflow steps and quality gates
@@ -185,6 +197,7 @@ This project includes a structured system for analyzing the CV against external 
 ### System Overview
 
 The analysis system enables:
+
 - **Source Extraction**: Structured extraction of data from external sources
 - **Comparative Analysis**: Identify gaps between CV and source data
 - **Recommendation Tracking**: Track improvement recommendations with priorities
@@ -193,7 +206,7 @@ The analysis system enables:
 
 ### Directory Structure
 
-```
+```text
 .tasks/
 ├── resources/
 │   ├── audits/                     # Source data extractions
@@ -218,22 +231,26 @@ The analysis system enables:
 ### Analysis Commands
 
 **Extract Source Data:**
+
 ```bash
 /analyze-source [--task-id=XXX-NNN]
 ```
 
 This command provides interactive guidance to extract data from external sources:
+
 - Supports LinkedIn, GitHub, external CVs, websites, and other sources
 - Uses templates for consistent data structure
 - Saves extracted data to `.tasks/resources/audits/{TASK-ID}/`
 - Links to parent analysis task if provided
 
 **Create Tasks from Recommendations:**
+
 ```bash
 /task-from-analysis [--analysis-id=XXX-NNN] [--filter=high|medium|low|all]
 ```
 
 This command transforms analysis recommendations into concrete tasks:
+
 - Lists analyses with pending recommendations
 - Allows batch selection ('1,5,6', 'all', 'high', etc.)
 - Pre-fills task creation with recommendation data
@@ -244,12 +261,14 @@ This command transforms analysis recommendations into concrete tasks:
 ### Typical Workflow
 
 1. **Create Analysis Task:**
+
    ```bash
    /task-create
    # Choose CNT trigramme, e.g., "CNT-001 LinkedIn Audit"
    ```
 
 2. **Extract Source Data:**
+
    ```bash
    /task-start CNT-001
    /analyze-source --task-id=CNT-001
@@ -263,6 +282,7 @@ This command transforms analysis recommendations into concrete tasks:
    - Create `recommendations-status.md` for tracking
 
 4. **Generate Tasks:**
+
    ```bash
    /task-from-analysis --analysis-id=CNT-001 --filter=high
    # Select recommendations to transform into tasks
@@ -270,6 +290,7 @@ This command transforms analysis recommendations into concrete tasks:
    ```
 
 5. **Execute Tasks:**
+
    ```bash
    /task-start CNT-002  # Task created from recommendation
    # Make CV changes
@@ -280,6 +301,7 @@ This command transforms analysis recommendations into concrete tasks:
 ### Recommendation ID Format
 
 Recommendations use the format `{ANALYSIS-ID}-R{NN}`:
+
 - Example: `CNT-001-R05` (recommendation 5 from analysis CNT-001)
 - Ensures unique identification across all analyses
 - Enables clear traceability in task files and commit messages
@@ -293,12 +315,14 @@ Recommendations use the format `{ANALYSIS-ID}-R{NN}`:
 ### Priority Levels
 
 Recommendations use a 4-level priority system:
+
 - 🔴🔴 **Very High**: Critical issues affecting credibility
 - 🔴 **High**: Important issues to address quickly
 - 🟡 **Medium**: Desirable improvements
 - 🟢 **Low**: Optional, can be deferred
 
 Priority mapping for task creation:
+
 - Very High → High priority task (🔴)
 - High → High priority task (🔴)
 - Medium → Medium priority task (🟡)

@@ -84,6 +84,7 @@ Cette commande déplace une tâche terminée vers les archives tout en maintenan
 ### Étape 5: Commit Git
 
 1. **Créer un commit d'archivage**
+
    ```bash
    git add .tasks/.archived/{ID}-{slug}.md
    git add TASKS.md
@@ -128,6 +129,7 @@ et l'historique Git complet est préservé.
 ## Validation
 
 Avant d'archiver, vérifier:
+
 - ✓ Le fichier de tâche existe
 - ✓ Le statut est "✅ Terminé"
 - ✓ La tâche est complète (résultat final rempli)
@@ -186,6 +188,7 @@ Vérifiez les permissions du système de fichiers.
 ## Mode Verbose
 
 Avec `--verbose`, afficher:
+
 - Contenu du fichier avant et après mise à jour du statut
 - Commandes Git exactes exécutées
 - Diff des changements dans TASKS.md
@@ -248,7 +251,7 @@ Recommandation: Ne jamais supprimer définitivement, garder l'archive et l'histo
 
 Les tâches archivées dans `.tasks/.archived/` peuvent être organisées par année ou trigramme pour faciliter la navigation:
 
-```
+```text
 .tasks/.archived/
   2025/
     CNT-001-linkedin-audit.md

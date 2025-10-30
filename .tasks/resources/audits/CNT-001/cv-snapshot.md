@@ -14,7 +14,7 @@
 | Champ | Valeur CV |
 |-------|-----------|
 | **Nom** | Bastien Gallay |
-| **Email** | bastien@gallay.org |
+| **Email** | <bastien@gallay.org> |
 | **Téléphone** | (+33) 06 72 66 47 38 |
 | **Adresse** | 17 rue du Petit Goave, 33000 Bordeaux, France |
 | **Position** | Crafting Technology Officer, 25 ans d'expérience en développement logiciel |
@@ -46,6 +46,7 @@
 | Anglais | 4/5 (Courant) | Ligne 65 |
 
 **Note:** L'espagnol est commenté à la ligne 66:
+
 ```typst
 // #item-with-level("Espagnol", 2, subtitle: "Notions")
 ```

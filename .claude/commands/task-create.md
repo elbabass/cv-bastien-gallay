@@ -90,9 +90,11 @@ Poser les questions suivantes à l'utilisateur:
 
 1. Lire TASKS.md
 2. Ajouter une ligne dans la table "Tâches actives":
-   ```
+
+   ```markdown
    | [{ID}](TASKS/{ID}-{slug}.md) | {Titre} | ⏳ À faire | {Priorité} | {Date} |
    ```
+
    - Insérer selon l'ordre de priorité (Haute > Moyenne > Basse) puis par date
 
 3. Mettre à jour les statistiques:
@@ -121,6 +123,7 @@ Utilisez `/task-start {ID}` pour commencer à travailler dessus.
 ## Validation
 
 Avant de créer la tâche, vérifier:
+
 - ✓ Le trigramme est valide
 - ✓ L'ID généré est unique
 - ✓ Le titre n'est pas vide
@@ -131,27 +134,32 @@ Avant de créer la tâche, vérifier:
 ## Gestion des Erreurs
 
 **ID déjà utilisé:**
+
 - Incrémenter automatiquement au prochain numéro disponible
 - Afficher un warning
 
 **Fichier existe déjà:**
+
 - Mode interactif:
   1. Écraser le fichier existant
   2. Choisir un autre nom/ID
   3. Annuler l'opération
 
 **Validation échouée:**
+
 - Afficher clairement ce qui manque
 - Permettre de compléter les champs manquants
 - Ne pas créer la tâche tant que la validation échoue
 
 **Format invalide:**
+
 - Corriger automatiquement si possible (ex: date)
 - Redemander la saisie sinon
 
 ## Mode Verbose
 
 Avec `--verbose`, afficher en plus:
+
 - Chaque étape du processus
 - Les validations effectuées
 - Les modifications apportées aux fichiers
@@ -159,7 +167,7 @@ Avec `--verbose`, afficher en plus:
 
 ## Exemple d'Utilisation
 
-```
+```markdown
 User: /task-create
 
 Claude: Je vais vous guider pour créer une nouvelle tâche.

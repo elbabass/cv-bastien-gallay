@@ -30,6 +30,7 @@ just validate
 ```
 
 **Alternative (without just):**
+
 ```bash
 # Build
 ./scripts/build.sh
@@ -47,7 +48,7 @@ The generated PDF is saved as `dist/cv.pdf`.
 
 ## Project Structure
 
-```
+```text
 neat-cv/
 ├── CLAUDE.md                  # AI assistant instructions
 ├── .tasks/                    # Task management system
@@ -99,6 +100,7 @@ The main CV content is in `src/cv.typ`. Key sections:
 - Alternative: `src/assets/profile.png`
 
 Update the image reference in `src/cv.typ`:
+
 ```typst
 profile-picture: image("assets/identite.png"),
 ```
@@ -106,6 +108,7 @@ profile-picture: image("assets/identite.png"),
 ### Modifying Colors
 
 In `src/cv.typ`:
+
 ```typst
 accent-color: rgb("#4682b4"),    # Main accent color
 header-color: rgb("#3b4f60"),    # Section headers
@@ -157,6 +160,7 @@ See [docs/GIT_WORKFLOW.md](docs/GIT_WORKFLOW.md) for detailed conventions.
 ### Installing Just
 
 **macOS (Homebrew):**
+
 ```bash
 brew install just
 ```
@@ -167,7 +171,7 @@ See [Just installation guide](https://github.com/casey/just#installation)
 ### Project Setup
 
 1. Clone the repository
-2. Install Typst: https://github.com/typst/typst#installation
+2. Install Typst: <https://github.com/typst/typst#installation>
 3. Install Just (recommended)
 4. Build: `just build`
 
@@ -199,12 +203,14 @@ Personal project - all rights reserved.
 ## Contact
 
 For questions about this CV structure or Typst template:
-- Email: bastien@gallay.org
+
+- Email: <bastien@gallay.org>
 - LinkedIn: [bastiengallay](https://www.linkedin.com/in/bastiengallay/)
 
 ---
 
 **Built with:**
+
 - [Typst](https://typst.app/) - Modern markup-based typesetting system
 - [neat-cv](https://typst.app/universe/package/neat-cv) - Professional CV template
 - [Just](https://just.systems/) - Command runner for build automation

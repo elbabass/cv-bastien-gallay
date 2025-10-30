@@ -38,25 +38,29 @@ This project uses **Conventional Commits** with emojis for better readability.
 ### Guidelines
 
 **Subject:**
+
 - Use imperative mood ("add" not "added" or "adds")
 - Don't capitalize first letter after emoji
 - No period at the end
 - Keep it concise (50 characters or less)
 
 **Body (optional):**
+
 - Separate from subject with blank line
 - Explain **what** and **why**, not how
 - Use bullet points for multiple changes
-- **No need** to add Claude Code co-authoring mentions
+- **IMPORTANT:** Do NOT add Claude Code signatures, co-authoring mentions, or generation credits
 
 ### Examples
 
 **Simple commit:**
+
 ```plaintext
 feat(cv): ✨ add certifications section
 ```
 
 **Commit with body:**
+
 ```plaintext
 content(experience): ✏️ update PALO IT role details
 

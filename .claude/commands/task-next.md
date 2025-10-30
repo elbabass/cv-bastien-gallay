@@ -25,7 +25,7 @@ Cette commande aide à choisir la prochaine tâche en maximisant le ratio valeur
 
 L'algorithme privilégie les tâches courtes et importantes selon cette formule:
 
-```
+```markdown
 Score = Valeur / Temps estimé
 
 Où:
@@ -167,7 +167,7 @@ Votre choix: _
 
 Avec `--verbose`, afficher le calcul détaillé:
 
-```text
+```markdown
 🔍 Analyse détaillée des tâches (méthode: valeur/temps)
 
 Tâches "À faire": 5
@@ -233,26 +233,32 @@ Cette approche "valeur/temps" permet de:
 **Exemple de comparaison:**
 
 Scénario A (ordre de priorité classique):
+
 - 1. Haute priorité (8h) → Total après 8h: 1 tâche terminée
 
 Scénario B (ordre valeur/temps):
-- 1. Moyenne priorité (1h) → 1 tâche terminée
-- 2. Moyenne priorité (2h) → 2 tâches terminées
-- 3. Haute priorité (5h restantes) → 2.5/3 de la tâche haute priorité
+
+1. Moyenne priorité (1h) → 1 tâche terminée
+2. Moyenne priorité (2h) → 2 tâches terminées
+3. Haute priorité (5h restantes) → 2.5/3 de la tâche haute priorité
+
 - Total après 8h: 2 tâches terminées + progrès significatif sur la haute priorité
 
 ## Recommandations
 
 **Si le temps estimé n'est pas renseigné:**
+
 - Renseigner "Temps estimé" dans les métadonnées des tâches
 - Améliore la précision des suggestions
 - Peut être fait rétroactivement
 
 **Si toutes les tâches ont le même score:**
+
 - La priorité devient le critère principal
 - Puis l'ancienneté (FIFO)
 
 **Tâches urgentes:**
+
 - Les tâches en retard ont automatiquement un score très élevé
 - Elles seront suggérées en premier même si longues
 

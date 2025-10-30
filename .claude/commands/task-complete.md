@@ -8,7 +8,7 @@ Finalise une tâche en cours en validant tous les critères de completion et en 
 
 ## Utilisation
 
-```
+```bash
 /task-complete <ID> [--verbose] [--no-merge]
 ```
 
@@ -138,14 +138,16 @@ Mode interactif pour compléter les informations finales:
    - INF → `chore(infra): 🔧 {titre}`
 
    Corps du commit:
-   ```
+
+   ```markdown
    {Réalisations sous forme de bullet points}
 
    Closes {ID}
    ```
 
 2. **Afficher et permettre l'édition**
-   ```
+
+   ```markdown
    Message de commit proposé:
    ───────────────────────────
    feat(template): ✨ Versions courte et longue du CV
@@ -178,7 +180,8 @@ Si `--no-merge` n'est pas spécifié:
    - Vérifier qu'on est sur `task/{ID}-*`
 
 2. **Proposer le merge**
-   ```
+
+   ```markdown
    La tâche est terminée et committée.
 
    Voulez-vous merger la branche dans main? (o/N): _
@@ -198,7 +201,7 @@ Si `--no-merge` n'est pas spécifié:
 
 Afficher un résumé complet:
 
-```
+```markdown
 ✅ Tâche terminée avec succès: {ID}
 
 📋 {Titre}
@@ -222,6 +225,7 @@ Utilisez `/task-archive {ID}` si vous voulez l'archiver définitivement.
 ## Validation
 
 Avant de compléter la tâche, vérifier:
+
 - ✓ Le fichier de tâche existe
 - ✓ Le statut est "En cours"
 - ✓ Toutes les sous-tâches sont cochées (ou confirmation utilisateur)
@@ -231,14 +235,16 @@ Avant de compléter la tâche, vérifier:
 ## Gestion des Erreurs
 
 **Tâche inexistante:**
-```
+
+```markdown
 ❌ Erreur: La tâche {ID} n'existe pas
 
 Vérifiez l'ID ou utilisez /task-list pour voir les tâches actives.
 ```
 
 **Tâche pas en cours:**
-```
+
+```markdown
 ❌ Erreur: La tâche {ID} n'est pas en cours
 
 Statut actuel: {statut}
@@ -247,7 +253,8 @@ Vous devez démarrer la tâche avec /task-start avant de la terminer.
 ```
 
 **Sous-tâches incomplètes:**
-```
+
+```markdown
 ⚠️  Warning: Des sous-tâches ne sont pas terminées
 
 Sous-tâches restantes:
@@ -266,7 +273,8 @@ Votre choix: _
 ```
 
 **Erreur de compilation:**
-```
+
+```markdown
 ❌ Erreur: Le CV ne compile pas
 
 Erreur Typst:
@@ -284,7 +292,8 @@ Votre choix: _
 ```
 
 **Pas de modifications committées:**
-```
+
+```markdown
 ⚠️  Warning: Aucun commit avec "Refs {ID}" trouvé
 
 Il semble que vous n'ayez pas fait de commit de travail sur cette tâche.
@@ -298,7 +307,8 @@ Votre choix: _
 ```
 
 **Conflits Git lors du merge:**
-```
+
+```markdown
 ❌ Erreur: Conflit lors du merge
 
 Fichiers en conflit:
@@ -317,6 +327,7 @@ Voulez-vous que je vous guide? (o/N): _
 ## Mode Verbose
 
 Avec `--verbose`, afficher en plus:
+
 - Détails de chaque validation DoD
 - Contenu complet avant/après de chaque fichier
 - Sortie complète des commandes Git
@@ -328,6 +339,7 @@ Avec `--verbose`, afficher en plus:
 ### Tâche Sans Changements Code
 
 Si la tâche est de type documentation ou recherche:
+
 - Permettre de compléter même sans changements dans cv.typ
 - Accepter un résultat final descriptif sans commits
 - Documenter dans l'historique
@@ -335,6 +347,7 @@ Si la tâche est de type documentation ou recherche:
 ### Tâche Partiellement Réalisée
 
 Si certaines sous-tâches ne peuvent pas être terminées:
+
 - Proposer de les déplacer vers une nouvelle tâche
 - Documenter pourquoi dans "Difficultés rencontrées"
 - Permettre la completion avec exception
@@ -342,13 +355,14 @@ Si certaines sous-tâches ne peuvent pas être terminées:
 ### Tâche Avec Dépendances
 
 Si d'autres tâches dépendent de celle-ci:
+
 - Scanner les références dans TASKS/
 - Informer qu'elles peuvent maintenant être débloquées
 - Proposer de démarrer la suivante
 
 ## Exemple d'Utilisation
 
-```
+```markdown
 User: /task-complete TPL1
 
 Claude: Validation de la tâche TPL-001...

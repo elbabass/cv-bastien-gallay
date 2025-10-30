@@ -155,10 +155,12 @@ L'audit LinkedIn a été complété avec succès et a donné lieu à la créatio
 ### Fichiers d'analyse créés
 
 **Données sources (`.tasks/resources/audits/CNT-001/`):**
+
 - [linkedin-profile.md](../resources/audits/CNT-001/linkedin-profile.md) - Extraction complète du profil LinkedIn (10 expériences, 2 formations, 5 certifications, 3 langues, 6 expériences bénévoles, 11 recommandations)
 - [cv-snapshot.md](../resources/audits/CNT-001/cv-snapshot.md) - État du CV au moment de l'audit avec références aux lignes
 
 **Résultats d'analyse (`.tasks/resources/audits/CNT-001/`):**
+
 - [audit-report.md](../resources/analyses/CNT-001/audit-report.md) - Rapport d'analyse comparative détaillé (7 catégories analysées)
 - [recommendations.md](../resources/analyses/CNT-001/recommendations.md) - 19 recommandations détaillées avec actions concrètes
 - [recommendations-status.md](../resources/analyses/CNT-001/recommendations-status.md) - Fichier de suivi des recommandations (pour `/task-from-analysis`)
@@ -168,6 +170,7 @@ L'audit LinkedIn a été complété avec succès et a donné lieu à la créatio
 ### Templates réutilisables créés
 
 **Templates (`.tasks/resources/templates/`):**
+
 - [audit-template.md](../resources/templates/audit-template.md) - Template standardisé pour analyses comparatives
 - [recommendations-template.md](../resources/templates/recommendations-template.md) - Template de suivi des recommandations
 - [source-extraction-template.md](../resources/templates/source-extraction-template.md) - Templates d'extraction pour LinkedIn, GitHub, CV externe
@@ -175,12 +178,14 @@ L'audit LinkedIn a été complété avec succès et a donné lieu à la créatio
 ### Commandes d'automatisation créées
 
 **Commandes Claude (`.claude/commands/`):**
+
 - [analyze-source.md](../../.claude/commands/analyze-source.md) - Commande pour extraction guidée de sources externes
 - [task-from-analysis.md](../../.claude/commands/task-from-analysis.md) - Commande pour créer des tâches depuis recommandations
 
 ### Documentation système créée
 
 **Dashboards et documentation:**
+
 - [ANALYSES.md](../ANALYSES.md) - Dashboard central des analyses (parallèle à TASKS.md)
 - [CLAUDE.md](../../CLAUDE.md) - Section "Analysis and Audit System" ajoutée (129 lignes)
 - [.claude/commands/README.md](../../.claude/commands/README.md) - Section "Commandes d'Analyse" ajoutée (100+ lignes)
@@ -193,6 +198,7 @@ L'audit LinkedIn a été complété avec succès et a donné lieu à la créatio
 ### Statistiques de l'audit
 
 **Écarts identifiés:**
+
 - 7 incohérences de dates (dont 1 critique)
 - 4 expériences manquantes
 - 2 certifications manquantes
@@ -200,6 +206,7 @@ L'audit LinkedIn a été complété avec succès et a donné lieu à la créatio
 - 6 expériences bénévoles manquantes
 
 **Recommandations générées:**
+
 - 1 recommandation priorité très haute (🔴🔴)
 - 10 recommandations priorité haute (🔴)
 - 5 recommandations priorité moyenne (🟡)

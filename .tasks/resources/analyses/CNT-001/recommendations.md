@@ -221,7 +221,7 @@ Le suivi de l'implémentation se fait dans le fichier [recommendations-status.md
 
 **Action:** Décommenter et mettre à jour la ligne website
 
-**URL LinkedIn:** http://bastien.gallay.org/
+**URL LinkedIn:** <http://bastien.gallay.org/>
 
 **Référence CV:** [src/cv.typ:15](../../../src/cv.typ#L15)
 
@@ -272,7 +272,7 @@ Le suivi de l'implémentation se fait dans le fichier [recommendations-status.md
 
 ### R19 - Ajouter site "Le monde des parents"
 
-**URL:** http://lemondedesparents.fr
+**URL:** <http://lemondedesparents.fr>
 
 **Référence CV:** [src/cv.typ:15](../../../src/cv.typ#L15) (ligne website)
 

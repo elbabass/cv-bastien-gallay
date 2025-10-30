@@ -42,6 +42,17 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 | ID | Titre | Statut | Priorité | Créé le |
 |----|-------|--------|----------|---------|
 | [CNT-001](tasks/CNT-001-linkedin-audit.md) | Audit LinkedIn | 🔄 En cours | 🔴 Haute | 2025-10-28 |
+| [CNT-002](tasks/CNT-002-corriger-ecart-critique-upwiser.md) | Corriger l'écart critique sur Upwiser | ⏳ À faire | 🔴 Haute | 2025-10-29 |
+| [CNT-003](tasks/CNT-003-corriger-date-fin-cto-palo-it.md) | Corriger la date de fin CTO chez PALO IT | ⏳ À faire | 🔴 Haute | 2025-10-29 |
+| [CNT-004](tasks/CNT-004-corriger-dates-boonty.md) | Corriger les dates de Boonty | ⏳ À faire | 🔴 Haute | 2025-10-29 |
+| [CNT-005](tasks/CNT-005-corriger-dates-debut-freelance.md) | Corriger les dates de début Freelance | ⏳ À faire | 🔴 Haute | 2025-10-29 |
+| [CNT-006](tasks/CNT-006-ajouter-certifications-manquantes.md) | Ajouter les certifications manquantes | ⏳ À faire | 🔴 Haute | 2025-10-29 |
+| [CNT-007](tasks/CNT-007-corriger-date-safe.md) | Corriger la date SAFe | ⏳ À faire | 🔴 Haute | 2025-10-29 |
+| [CNT-008](tasks/CNT-008-ajouter-experience-ibp.md) | Ajouter l'expérience i-BP | ⏳ À faire | 🔴 Haute | 2025-10-29 |
+| [CNT-009](tasks/CNT-009-ajouter-experience-dekra.md) | Ajouter l'expérience DEKRA | ⏳ À faire | 🔴 Haute | 2025-10-29 |
+| [CNT-010](tasks/CNT-010-ajouter-section-benevolat.md) | Ajouter section Bénévolat | ⏳ À faire | 🔴 Haute | 2025-10-29 |
+| [CNT-011](tasks/CNT-011-corriger-ecarts-mineurs-cdiscount.md) | Corriger écarts mineurs de dates (Cdiscount) | ⏳ À faire | 🔴 Haute | 2025-10-29 |
+| [CNT-012](tasks/CNT-012-corriger-ecarts-mineurs-cast.md) | Corriger écarts mineurs de dates (Cast) | ⏳ À faire | 🔴 Haute | 2025-10-29 |
 | [TPL-001](tasks/TPL-001-cv-versions.md) | Versions courte et longue du CV | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
 | [QUA-001](tasks/QUA-001-verification.md) | Étapes de vérification du CV | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
 | [TPL-002](tasks/TPL-002-template-system.md) | Système de changement de template | ⏳ À faire | 🟢 Basse | 2025-10-28 |
@@ -122,15 +133,15 @@ Closes TPL-001"
 
 ## Statistiques
 
-- **Total**: 8 tâches
-- **À faire**: 5
+- **Total**: 19 tâches
+- **À faire**: 16
 - **En cours**: 1
 - **Terminées**: 2
 - **Bloquées**: 0
 
 **Prochains IDs disponibles par trigramme**:
 
-- CNT-002, TPL-003, QUA-002, PIP-002, INF-003, LAY-001, DOC-002
+- CNT-013, TPL-003, QUA-002, PIP-002, INF-003, LAY-001, DOC-002
 
 ---
 

@@ -13,116 +13,127 @@ Ce fichier permet de suivre l'évolution de chaque recommandation issue de l'aud
 
 | Statut | Nombre | Pourcentage |
 |--------|--------|-------------|
-| ⏳ Pending | 19 | 100% |
-| 🔄 Task created | 0 | 0% |
+| ⏳ Pending | 8 | 42% |
+| 🔄 Task created | 11 | 58% |
 | ✅ Completed | 0 | 0% |
 
 ---
 
-## 🔴🔴 Priorité TRÈS HAUTE (1/1 items pending)
+## 🔴🔴 Priorité TRÈS HAUTE (0/1 items pending)
 
-- [ ] **R01 - Corriger l'écart critique sur Upwiser**
+- [x] **R01 - Corriger l'écart critique sur Upwiser**
   - Catégorie: Date incohérence
   - Source: [recommendations.md](./recommendations.md#r01---corriger-lécart-critique-sur-upwiser)
   - Référence CV: [src/cv.typ:122](../../../src/cv.typ#L122)
   - Trigramme suggéré: CNT
   - Date ajout: 2025-10-29
-  - Tâche créée: -
-  - Statut: ⏳ Pending
+  - Tâche créée: [CNT-002](../../tasks/CNT-002-corriger-ecart-critique-upwiser.md)
+  - Date création tâche: 2025-10-29
+  - Statut: 🔄 Task created
 
 ---
 
-## 🔴 Priorité HAUTE (10/10 items pending)
+## 🔴 Priorité HAUTE (0/10 items pending)
 
-- [ ] **R02 - Corriger la date de fin CTO chez PALO IT**
+- [x] **R02 - Corriger la date de fin CTO chez PALO IT**
   - Catégorie: Date incohérence
   - Source: [recommendations.md](./recommendations.md#r02---corriger-la-date-de-fin-cto-chez-palo-it)
   - Référence CV: [src/cv.typ:107](../../../src/cv.typ#L107)
   - Trigramme suggéré: CNT
   - Date ajout: 2025-10-29
-  - Tâche créée: -
-  - Statut: ⏳ Pending
+  - Tâche créée: [CNT-003](../../tasks/CNT-003-corriger-date-fin-cto-palo-it.md)
+  - Date création tâche: 2025-10-29
+  - Statut: 🔄 Task created
 
-- [ ] **R03 - Corriger les dates de Boonty**
+- [x] **R03 - Corriger les dates de Boonty**
   - Catégorie: Date incohérence
   - Source: [recommendations.md](./recommendations.md#r03---corriger-les-dates-de-boonty)
   - Référence CV: [src/cv.typ:162](../../../src/cv.typ#L162)
   - Trigramme suggéré: CNT
   - Date ajout: 2025-10-29
-  - Tâche créée: -
-  - Statut: ⏳ Pending
+  - Tâche créée: [CNT-004](../../tasks/CNT-004-corriger-dates-boonty.md)
+  - Date création tâche: 2025-10-29
+  - Statut: 🔄 Task created
 
-- [ ] **R04 - Corriger les dates de début Freelance**
+- [x] **R04 - Corriger les dates de début Freelance**
   - Catégorie: Date incohérence
   - Source: [recommendations.md](./recommendations.md#r04---corriger-les-dates-de-début-freelance)
   - Référence CV: [src/cv.typ:169](../../../src/cv.typ#L169)
   - Trigramme suggéré: CNT
   - Date ajout: 2025-10-29
-  - Tâche créée: -
-  - Statut: ⏳ Pending
+  - Tâche créée: [CNT-005](../../tasks/CNT-005-corriger-dates-debut-freelance.md)
+  - Date création tâche: 2025-10-29
+  - Statut: 🔄 Task created
 
-- [ ] **R05 - Ajouter les certifications manquantes**
+- [x] **R05 - Ajouter les certifications manquantes**
   - Catégorie: Certification manquante
   - Source: [recommendations.md](./recommendations.md#r05---ajouter-les-certifications-manquantes)
   - Référence CV: [src/cv.typ:220-250](../../../src/cv.typ#L220-L250)
   - Trigramme suggéré: CNT
   - Date ajout: 2025-10-29
-  - Tâche créée: -
-  - Statut: ⏳ Pending
+  - Tâche créée: [CNT-006](../../tasks/CNT-006-ajouter-certifications-manquantes.md)
+  - Date création tâche: 2025-10-29
+  - Statut: 🔄 Task created
 
-- [ ] **R06 - Corriger la date SAFe**
+- [x] **R06 - Corriger la date SAFe**
   - Catégorie: Certification incohérence
   - Source: [recommendations.md](./recommendations.md#r06---corriger-la-date-safe)
   - Référence CV: [src/cv.typ:248](../../../src/cv.typ#L248)
   - Trigramme suggéré: CNT
   - Date ajout: 2025-10-29
-  - Tâche créée: -
-  - Statut: ⏳ Pending
+  - Tâche créée: [CNT-007](../../tasks/CNT-007-corriger-date-safe.md)
+  - Date création tâche: 2025-10-29
+  - Statut: 🔄 Task created
 
-- [ ] **R07 - Ajouter l'expérience i-BP**
+- [x] **R07 - Ajouter l'expérience i-BP**
   - Catégorie: Expérience manquante
   - Source: [recommendations.md](./recommendations.md#r07---ajouter-lexpérience-i-bp)
   - Référence CV: Insertion après ligne 135
   - Trigramme suggéré: CNT
   - Date ajout: 2025-10-29
-  - Tâche créée: -
-  - Statut: ⏳ Pending
+  - Tâche créée: [CNT-008](../../tasks/CNT-008-ajouter-experience-ibp.md)
+  - Date création tâche: 2025-10-29
+  - Statut: 🔄 Task created
 
-- [ ] **R08 - Ajouter l'expérience DEKRA**
+- [x] **R08 - Ajouter l'expérience DEKRA**
   - Catégorie: Expérience manquante
   - Source: [recommendations.md](./recommendations.md#r08---ajouter-lexpérience-dekra)
   - Référence CV: Insertion après ligne 135
   - Trigramme suggéré: CNT
   - Date ajout: 2025-10-29
-  - Tâche créée: -
-  - Statut: ⏳ Pending
+  - Tâche créée: [CNT-009](../../tasks/CNT-009-ajouter-experience-dekra.md)
+  - Date création tâche: 2025-10-29
+  - Statut: 🔄 Task created
 
-- [ ] **R09 - Ajouter section Bénévolat**
+- [x] **R09 - Ajouter section Bénévolat**
   - Catégorie: Section manquante
   - Source: [recommendations.md](./recommendations.md#r09---ajouter-section-bénévolat)
   - Référence CV: Insertion après ligne 250
   - Trigramme suggéré: CNT
   - Date ajout: 2025-10-29
-  - Tâche créée: -
-  - Statut: ⏳ Pending
+  - Tâche créée: [CNT-010](../../tasks/CNT-010-ajouter-section-benevolat.md)
+  - Date création tâche: 2025-10-29
+  - Statut: 🔄 Task created
 
-- [ ] **R10 - Corriger écarts mineurs de dates (Cdiscount)**
+- [x] **R10 - Corriger écarts mineurs de dates (Cdiscount)**
   - Catégorie: Date incohérence
   - Source: [recommendations.md](./recommendations.md#r10---corriger-écarts-mineurs-de-dates-cdiscount)
   - Référence CV: [src/cv.typ:139](../../../src/cv.typ#L139)
   - Trigramme suggéré: CNT
   - Date ajout: 2025-10-29
-  - Tâche créée: -
-  - Statut: ⏳ Pending
+  - Tâche créée: [CNT-011](../../tasks/CNT-011-corriger-ecarts-mineurs-cdiscount.md)
+  - Date création tâche: 2025-10-29
+  - Statut: 🔄 Task created
 
-- [ ] **R11 - Corriger écarts mineurs de dates (Cast)**
+- [x] **R11 - Corriger écarts mineurs de dates (Cast)**
   - Catégorie: Date incohérence
   - Source: [recommendations.md](./recommendations.md#r11---corriger-écarts-mineurs-de-dates-cast)
   - Référence CV: [src/cv.typ:150](../../../src/cv.typ#L150)
   - Trigramme suggéré: CNT
   - Date ajout: 2025-10-29
-  - Tâche créée: -
-  - Statut: ⏳ Pending
+  - Tâche créée: [CNT-012](../../tasks/CNT-012-corriger-ecarts-mineurs-cast.md)
+  - Date création tâche: 2025-10-29
+  - Statut: 🔄 Task created
 
 ---
 
