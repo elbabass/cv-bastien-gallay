@@ -41,7 +41,6 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 
 | ID | Titre | Statut | Priorité | Créé le |
 |----|-------|--------|----------|---------|
-| [CNT-001](tasks/CNT-001-linkedin-audit.md) | Audit LinkedIn | 🔄 En cours | 🔴 Haute | 2025-10-28 |
 | [CNT-002](tasks/CNT-002-corriger-ecart-critique-upwiser.md) | Corriger l'écart critique sur Upwiser | ⏳ À faire | 🔴 Haute | 2025-10-29 |
 | [CNT-003](tasks/CNT-003-corriger-date-fin-cto-palo-it.md) | Corriger la date de fin CTO chez PALO IT | ⏳ À faire | 🔴 Haute | 2025-10-29 |
 | [CNT-004](tasks/CNT-004-corriger-dates-boonty.md) | Corriger les dates de Boonty | ⏳ À faire | 🔴 Haute | 2025-10-29 |
@@ -65,6 +64,7 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 
 | ID | Titre | Statut | Priorité | Terminé le |
 |----|-------|--------|----------|------------|
+| [CNT-001](tasks/CNT-001-linkedin-audit.md) | Audit LinkedIn | ✅ Terminé | 🔴 Haute | 2025-11-05 |
 | [INF-002](tasks/INF-002-restructurer-sources-pdf-documentation.md) | Restructurer les sources, PDF et documentation | ✅ Terminé | 🔴 Haute | 2025-10-29 |
 | [DOC-001](tasks/DOC-001-task-management-automation.md) | Système d'automatisation de gestion des tâches | ✅ Terminé | 🔴 Haute | 2025-10-28 |
 
@@ -135,8 +135,8 @@ Closes TPL-001"
 
 - **Total**: 19 tâches
 - **À faire**: 16
-- **En cours**: 1
-- **Terminées**: 2
+- **En cours**: 0
+- **Terminées**: 3
 - **Bloquées**: 0
 
 **Prochains IDs disponibles par trigramme**:
