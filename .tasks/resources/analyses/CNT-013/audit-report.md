@@ -4,6 +4,7 @@
 **Date:** 2025-11-14
 **Auteur:** Claude (assistant IA)
 **Sources:**
+
 - CV 2019 (Mars 2019, format Word/MD)
 - CV Actuel (2025, format Typst)
 
@@ -14,12 +15,14 @@
 ### Score Global: 7.5/10
 
 **Évolution positive:**
+
 - ✅ Positionnement modernisé (Coach Agile → CTO)
 - ✅ Ajout expérience stratégique PALO IT (2021-2025)
 - ✅ Technologies actualisées (IA, TypeScript, Rust)
 - ✅ Format professionnel et scannable (Typst, neat-cv)
 
 **Régressions importantes:**
+
 - ⚠️ Perte massive de détails sur expériences Upwiser (6+ missions détaillées → description générique)
 - ⚠️ Expériences anciennes quasi vides (Boonty, Indépendant, Cast)
 - ⚠️ Centres d'intérêt génériques vs engagement communautaire concret
@@ -41,6 +44,7 @@
 ### Priorités d'Action
 
 🔴🔴 **Très Haute (Critique)**
+
 1. Corriger dates Indépendant (1999 → 2002)
 2. Clarifier et documenter dates Boonty/Qualia Service
 
@@ -71,6 +75,7 @@
 **Réponse utilisateur (2025-11-14):**
 
 Chronologie clarifiée:
+
 - **06/2004 - 07/2005:** Salarié Qualia Service (en prestation chez Boonty)
 - **07/2005 - 07/2006:** Salarié direct Boonty
 - **Période totale affichée:** Boonty 06/2004 - 07/2006 (2 ans 1 mois)
@@ -80,6 +85,7 @@ Chronologie clarifiée:
 **Note importante:** Mois exacts à vérifier dans les contrats/documents officiels (KBIS, bulletins de paie).
 
 **Impact sur l'analyse:**
+
 - ✅ Résolution de l'écart apparent -13 mois
 - ✅ Explication cohérente
 - ⚠️ Besoin de vérification documentaire pour dates exactes (recommandation 🟡 moyenne)
@@ -100,7 +106,7 @@ Chronologie clarifiée:
 |---------|---------|---------|--------|
 | **Nom** | Bastien Gallay | Bastien Gallay | ✅ Identique |
 | **Date de naissance** | 03/03/1979 | 03/03/1979 | ✅ Identique |
-| **Email** | Non affiché | bastien@gallay.org | ✅ Ajouté |
+| **Email** | Non affiché | <bastien@gallay.org> | ✅ Ajouté |
 | **Téléphone** | Non affiché | (+33) 06 72 66 47 38 | ✅ Ajouté |
 | **Adresse** | Non affichée | 17 rue du Petit Goave, 33000 Bordeaux | ✅ Ajouté |
 | **LinkedIn** | Non affiché | bastiengallay | ✅ Ajouté |
@@ -119,15 +125,18 @@ Chronologie clarifiée:
 **Analyse:**
 
 L'évolution du positionnement est cohérente avec le parcours:
+
 - 2019: Expert agile / coach (Upwiser)
 - 2025: CTO avec vision stratégique (PALO IT)
 
 **Points forts:**
+
 - ✅ Titre moderne et différenciant ("Crafting" Technology Officer)
 - ✅ Valorisation de l'ancienneté (25 ans)
 - ✅ Cohérent avec expérience CTO chez PALO IT
 
 **Points d'attention:**
+
 - ⚠️ Perte de référence explicite à "Agile" et "Lean" dans le titre (compensé par les compétences)
 - ⚠️ "Crafting" peut ne pas être compris par tous les ATS
 
@@ -150,6 +159,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 ⚠️ **Régression:** Espagnol (Notions) présent dans le code mais commenté
 
 **Recommandation 🟡 Moyenne:** Restaurer l'espagnol en décommentant la ligne 66 de cv.typ
+
 ```typst
 // #item-with-level("Espagnol", 2, subtitle: "Notions")
 ```
@@ -163,6 +173,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 ### 3.1 Structure de Présentation
 
 **CV 2019:** Tableau structuré en 5 catégories
+
 - Certifications
 - Méthodes
 - Gestion de Produit
@@ -170,6 +181,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 - Facilitation, Accompagnement et Coaching
 
 **CV 2025:** Pills (tags) non catégorisées
+
 - 18 compétences affichées en vrac
 
 **Analyse:**
@@ -197,6 +209,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 ### 3.3 Compétences Présentes Uniquement en 2019
 
 **Méthodes:**
+
 - Nexus
 - Lean Startup
 - DevOps (explicitement)
@@ -204,6 +217,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 - SAFe
 
 **Gestion de Produit:**
+
 - Impact Mapping
 - Story Mapping
 - Spécification par l'exemple
@@ -211,6 +225,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 - Lean Canvas
 
 **Craftmanship:**
+
 - Behaviour Driven Development (BDD)
 - Intégration continue
 - Déploiement continu
@@ -218,6 +233,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 - Code Review
 
 **Facilitation:**
+
 - Adoption Agile
 - Serious Gaming
 - Facilitation Graphique
@@ -228,12 +244,14 @@ L'évolution du positionnement est cohérente avec le parcours:
 ### 3.4 Compétences Présentes Uniquement en 2025
 
 **Technologies modernes:**
+
 - IA (Intelligence Artificielle)
 - TypeScript
 - Rust
 - Spec Driven Development
 
 **Concepts avancés:**
+
 - Clean Code (explicité)
 - Domain Driven Design (explicité)
 
@@ -242,18 +260,21 @@ L'évolution du positionnement est cohérente avec le parcours:
 **Analyse:**
 
 ✅ **Ajouts positifs:**
+
 - IA: Tendance actuelle, cohérent avec Gen-e2 (PALO IT)
 - TypeScript: Langage moderne frontend
 - Rust: Langage système moderne
 - DDD: Concept architecture avancé
 
 ⚠️ **Absences notables:**
+
 - DevOps (très recherché par ATS)
 - BDD (pratique importante)
 - Impact Mapping, Story Mapping (techniques produit)
 - Lean Startup (cohérent avec centres d'intérêt 2019)
 
 **Recommandation 🟡 Moyenne:** Ajouter aux pills:
+
 - DevOps
 - BDD
 - Impact Mapping
@@ -279,6 +300,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 ✅ **Ajout positif:** PALO IT (expérience récente et stratégique bien valorisée)
 
 🔥 **Régressions majeures:**
+
 1. **Upwiser:** Perte de 12 missions/interventions détaillées (Dekra × 2, iBP, Robin Finance, Actinuum, Le Wagon, Smartview, EPSI, Epitech, Google Launchpad, Antsys)
 2. **Cast SA:** Perte de 6 missions détaillées (JOA Online, CEA, Nespresso, La Poste, Pixmania)
 3. **Boonty:** Aucune description (projets 400k€/mois, framework interne, international perdus)
@@ -291,6 +313,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 **Statut:** ✅ Nouvelle expérience bien valorisée
 
 **Points forts:**
+
 - ✅ Distinction CTO (10/2024-08/2025) vs Consultant Senior (02/2021-10/2024)
 - ✅ Chiffres concrets (40+ personnes, COMEX)
 - ✅ Innovation mise en avant (Gen-e2, méthode basée IA)
@@ -298,6 +321,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 - ✅ Multi-casquettes (stratégie, management, mentorat, formation, recrutement)
 
 **Points d'amélioration possibles:**
+
 - 🟡 Pourrait bénéficier d'exemples de clients/projets (comme Upwiser 2019)
 - 🟡 Gen-e2 mériterait une courte explication (méthode basée IA pour produits numériques - ok, mais quel impact?)
 
@@ -316,12 +340,14 @@ L'évolution du positionnement est cohérente avec le parcours:
 | **Écart** | -1 mois | *(fin ajoutée)* | +1 mois 11 mois |
 
 **Analyse:**
+
 - ⚠️ Écart mineur de début: 09/2013 vs 10/2013 (à clarifier)
 - ✅ Fin logique: 01/2021 (cohérent avec début PALO IT 02/2021)
 
 #### Contenu: Perte Critique de Détails
 
 **CV 2019:**
+
 - 6 missions majeures détaillées (10-20 bullets chacune):
   1. Actinuum et Smartview (depuis 06/2015)
   2. Robin Finance (depuis 10/2017)
@@ -331,6 +357,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 - 6 autres interventions (Le Wagon, Smartview, EPSI, Epitech, Google Launchpad, Antsys)
 
 **CV 2025:**
+
 - 9 bullets génériques (aucune mission précise)
 - Aucun client nommé
 - Aucune date de mission
@@ -340,6 +367,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 
 **Dekra Programme Next (CV 2019):**
 > Programme de refonte du patrimoine logiciel - 30 personnes sur 4 ans, 10 000 jours hommes
+>
 > - Formation aux méthodes agiles des différents intervenants projets
 > - Coaching et formation des nouveaux Scrum Masters et Product Owners
 > - Facilitation de la mise en œuvre de Scrum et Kanban
@@ -354,6 +382,7 @@ L'évolution du positionnement est cohérente avec le parcours:
 > *(aucune mention de Dekra, ni d'aucune autre mission)*
 
 **Impact:**
+
 - 🔴🔴 **Perte de preuves concrètes** pour 7 ans d'expérience (2013-2021)
 - 🔴🔴 **Perte de crédibilité** pour recruteurs qui veulent voir des missions précises
 - 🔴🔴 **Invisibilité ATS** pour mots-clés clients (Dekra, iBP, Robin Finance, etc.)
@@ -385,6 +414,7 @@ Utiliser la section "Expérience détaillée" (actuellement vide, ligne 253 cv.t
    - Jeux sérieux (Planning Poker, Coding Dojo/TDD)
 
 **Bénéfice attendu:**
+
 - ✅ Preuves concrètes de missions longues (2-18 mois)
 - ✅ Variété de contextes (industrie automobile, banque, fintech)
 - ✅ Scope technique ET managérial
@@ -408,6 +438,7 @@ Utiliser la section "Expérience détaillée" (actuellement vide, ligne 253 cv.t
 #### Contenu: Condensation Importante
 
 **CV 2019 (9 bullets détaillés):**
+
 - Responsable technique de la plateforme de paiement
 - Obtention de la certification PCI DSS
 - Refonte technique de l'application vers un mode SaaS
@@ -420,6 +451,7 @@ Utiliser la section "Expérience détaillée" (actuellement vide, ligne 253 cv.t
 - Coaching des développeurs et chefs de projets
 
 **CV 2025 (3 bullets génériques):**
+
 - Gestion de projets techniques et Scrum Master pour des projets clients variés.
 - Environnement de développement .Net, C#, SQL Server.
 - Responsable technique de la plateforme de paiement.
@@ -427,6 +459,7 @@ Utiliser la section "Expérience détaillée" (actuellement vide, ligne 253 cv.t
 **Analyse:**
 
 ⚠️ **Pertes notables:**
+
 - **PCI DSS** (certification sécurité importante dans le paiement)
 - **SaaS** (mode de distribution moderne)
 - **Scrum et Scrumban** (méthodes agiles)
@@ -438,6 +471,7 @@ Utiliser la section "Expérience détaillée" (actuellement vide, ligne 253 cv.t
 **Recommandation 🔴 Haute:**
 
 Enrichir la description CDiscount avec au minimum:
+
 ```typst
 #entry(
   title: "Chef de projet technique et Scrum Master",
@@ -456,6 +490,7 @@ Enrichir la description CDiscount avec au minimum:
 ```
 
 **Bénéfice attendu:**
+
 - ✅ **PCI DSS** (mot-clé recherché pour postes paiement/sécurité)
 - ✅ **SaaS** (tendance marché)
 - ✅ **200 j/mois** (preuve de capacité de gestion)
@@ -479,6 +514,7 @@ Enrichir la description CDiscount avec au minimum:
 #### Contenu: Perte Majeure de Missions
 
 **CV 2019:**
+
 - **6 missions détaillées:**
   1. **JOA Online** (07/2009, 16 mois) - PO équipe 10 personnes FR/PT, Scrum distribué, 10 sociétés sous-traitantes Europe
   2. **CEA GCAO** (12/2008, 8 mois) - MOA et maquettage documents confidentiels
@@ -488,6 +524,7 @@ Enrichir la description CDiscount avec au minimum:
   6. Autres missions (dates non détaillées)
 
 **CV 2025 (3 bullets génériques):**
+
 - Intervention sur des projets clients variés, principalement dans le domaine Web.
 - Domaines métiers: e-commerce, jeux d'argent, nucléaire, etc.
 - Environnement de développement: Java, PHP, SQL Server, Oracle, etc.
@@ -495,6 +532,7 @@ Enrichir la description CDiscount avec au minimum:
 **Analyse:**
 
 🔥 **Perte critique:**
+
 - Aucun client nommé (JOA, CEA, Nespresso, La Poste, Pixmania)
 - Aucune mission datée
 - Aucun contexte technique précis
@@ -521,6 +559,7 @@ Option 1: Ajouter 2 missions majeures dans "Expérience détaillée" section
 Option 2: Enrichir description principale Cast avec au moins noms de clients et technologies
 
 **Exemple enrichissement minimal:**
+
 ```typst
 #entry(
   title: "Consultant Technique",
@@ -550,6 +589,7 @@ Option 2: Enrichir description principale Cast avec au moins noms de clients et 
 | **Clarification utilisateur** | 06/2004 | 07/2006 | 2 ans 1 mois | Qualia 06/2004-07/2005 + Boonty direct 07/2005-07/2006 |
 
 **Écart à clarifier:**
+
 - CV 2025: 07/2004 (vs 06/2004 clarification)
 - CV 2025: 07/2006 (vs 08/2006 CV 2019 tableau)
 
@@ -558,16 +598,19 @@ Option 2: Enrichir description principale Cast avec au moins noms de clients et 
 #### Contenu: Perte Totale de Description
 
 **CV 2019 (3 bullets):**
+
 - Gestion des deux projets pilotes pour un chiffre d'affaires en production de **400.000€ / mois chacun**
 - Création d'un Framework interne
 - Travail en équipes internationales: **Singapour, Corée, Japon et New York**
 
 **CV 2025:**
+
 - **Aucune description** (champ vide)
 
 **Analyse:**
 
 🔥 **Perte critique:**
+
 - **400k€/mois par projet** (preuve de gestion de projets à fort CA)
 - **Framework interne** (compétence architecture)
 - **Équipes internationales** (Asie, USA)
@@ -576,6 +619,7 @@ Option 2: Enrichir description principale Cast avec au moins noms de clients et 
 **Recommandation 🔴 Haute:**
 
 Restaurer au minimum la description suivante:
+
 ```typst
 #entry(
   title: "Développeur Web",
@@ -592,6 +636,7 @@ Restaurer au minimum la description suivante:
 ```
 
 **Bénéfice attendu:**
+
 - ✅ **400k€/mois** (preuve d'impact business fort)
 - ✅ **International** (Asie, USA)
 - ✅ **R&D** (innovation technique)
@@ -621,16 +666,19 @@ Restaurer au minimum la description suivante:
 - **1999-2004:** Impossible d'être indépendant pendant les études à temps plein
 
 **Hypothèse de l'erreur:**
+
 - Confusion entre **1999 (début DUT)** et **2002 (début activité indépendante post-DEA)**
 - Probable copier-coller depuis date de formation
 
 **Date correcte:**
+
 - **09/2002** ou **07/2002** (post-DEA) jusqu'à **06/2004**
 - Durée: ~1 an 9 mois à 1 an 11 mois
 
 **Recommandation 🔴🔴 Très Haute - CRITIQUE:**
 
 Corriger immédiatement la date de début:
+
 ```typst
 #entry(
   title: "Webmaster",
@@ -641,6 +689,7 @@ Corriger immédiatement la date de début:
 ```
 
 **Impact de l'erreur actuelle:**
+
 - 🔴🔴 **Crédibilité du CV compromise** (erreur chronologique évidente)
 - 🔴🔴 **ATS/Recruteurs détecteront l'incohérence** avec les études
 - 🔴🔴 **Question sur l'attention aux détails**
@@ -648,17 +697,20 @@ Corriger immédiatement la date de début:
 #### Contenu: Perte Totale de Description
 
 **CV 2019 (3 bullets):**
+
 - Pilotage de projets, du recueil des besoins à la mise en production
 - Gestion prévisionnelle du budget: hébergement, référencement et maintenance
 - Conseil et expertise technique auprès des clients
 - Contexte: Création complète de sites internet pour des PME et associations
 
 **CV 2025:**
+
 - **Aucune description** (champ vide)
 
 **Recommandation 🟡 Moyenne:**
 
 Après correction des dates, ajouter description minimale:
+
 ```typst
 #entry(
   title: "Webmaster",
@@ -695,6 +747,7 @@ Après correction des dates, ajouter description minimale:
 **Analyse:**
 
 ✅ **Amélioration nette:**
+
 - Mentions ajoutées (Bien partout)
 - Sujets de mémoires/recherche ajoutés
 - Baccalauréat ajouté (complétude du parcours)
@@ -721,6 +774,7 @@ Après correction des dates, ajouter description minimale:
 | **Gestion de projet et efficacité personnelle** | 2008, Merlane | ❌ **Absent** | ⚠️ Manquant |
 
 **Statistiques:**
+
 - CV 2019: 8 certifications
 - CV 2025: 5 certifications
 - Manquantes: 4 certifications (PSD, Facilitation Graphique, Improve Your User Stories, Gestion de projet)
@@ -729,6 +783,7 @@ Après correction des dates, ajouter description minimale:
 ### 6.2 Analyse
 
 ✅ **Évolutions positives:**
+
 - Professional Scrum with Kanban ajouté (2017) - certification pertinente
 - SAFe: SPC 4.6 (en cours 2019) → SPC4 et SPC5 (validé 2018) - évolution cohérente
 
@@ -751,12 +806,14 @@ Après correction des dates, ajouter description minimale:
    - **Priorité:** Basse
 
 ⚠️ **Écart de date:**
+
 - CSM: 2009 (CV 2019) vs 2008 (CV 2025)
 - **Recommandation:** Vérifier certificat original pour date exacte
 
 **Recommandation 🟡 Moyenne:**
 
 Ajouter les 3 certifications importantes manquantes:
+
 ```typst
 #entry(
   title: "Professional Scrum Developer (PSD)",
@@ -778,6 +835,7 @@ Ajouter les 3 certifications importantes manquantes:
 ```
 
 **Bénéfice attendu:**
+
 - ✅ **PSD:** Renforce profil technique Scrum
 - ✅ **Facilitation Graphique:** Différenciation (compétence rare)
 - ✅ **Improve Your User Stories:** Crédibilité Product/Specs (Gojko Adzic référence)
@@ -789,6 +847,7 @@ Ajouter les 3 certifications importantes manquantes:
 ### 7.1 Comparaison
 
 **CV 2019:**
+
 - **Leader des rencontres Lean Startup Bordeaux** - Coaching de porteurs de startups naissantes
 - **Orateur dans plusieurs conférences Agiles depuis 2015:**
   - « Moi, coach agile : psychomotricien d'entreprise »
@@ -799,6 +858,7 @@ Ajouter les 3 certifications importantes manquantes:
 - **Co-fondateur de Ruby Bordeaux**
 
 **CV 2025:**
+
 - Intelligence artificielle
 - Management et leadership
 - Entrepreneuriat
@@ -845,15 +905,18 @@ Ajouter les 3 certifications importantes manquantes:
 ### 7.3 Thématiques CV 2025
 
 **Intelligence artificielle:**
+
 - ✅ Cohérent avec Gen-e2 (PALO IT)
 - ✅ Tendance actuelle
 - ⚠️ Mais aucune preuve concrète (pas de projet perso, contribution, publication)
 
 **Management et leadership:**
+
 - ✅ Cohérent avec CTO
 - ⚠️ Mais générique (vs preuves 2019: organisateur, leader, co-fondateur)
 
 **Entrepreneuriat:**
+
 - ✅ Cohérent avec Upwiser (gérant)
 - ⚠️ Mais générique (vs preuves 2019: Lean Startup leader, coaching 100 startups, Startup Weekend)
 
@@ -879,6 +942,7 @@ Ajouter les 3 certifications importantes manquantes:
 ```
 
 **Bénéfice attendu:**
+
 - ✅ **Preuves concrètes** d'engagement communautaire
 - ✅ **Différenciation** vs candidats avec centres d'intérêt génériques
 - ✅ **Leadership** démontré (organisateur, leader, co-fondateur)
@@ -905,6 +969,7 @@ Ajouter les 3 certifications importantes manquantes:
 ### 8.2 Organisation du Contenu
 
 **CV 2019:**
+
 1. Domaines d'expertise (tableau structuré)
 2. Résumé de carrière (tableau synthétique)
 3. Formation (résumé)
@@ -914,17 +979,20 @@ Ajouter les 3 certifications importantes manquantes:
 7. Détails Expériences précédentes (CDiscount, Cast, Boonty, Indépendant)
 
 **CV 2025:**
+
 - **Sidebar:** À propos, Centres d'intérêt, Contact, Informations, Langues, Expertises
 - **Corps:** Expérience professionnelle, Études, Certifications, Expérience détaillée
 
 **Analyse:**
 
 ✅ **Améliorations structurelles:**
+
 - Sidebar efficace pour informations clés (contact, langues, compétences)
 - Hiérarchie visuelle claire
 - Scannabilité excellente
 
 ⚠️ **Opportunités manquées:**
+
 - Section "Expérience détaillée" existe (ligne 253) mais est **vide**
 - Pas de tableau récapitulatif des compétences (vs tableau 2019)
 - Pas de résumé de carrière synthétique (vs tableau 2019)
@@ -932,10 +1000,12 @@ Ajouter les 3 certifications importantes manquantes:
 **Recommandation 🟡 Moyenne:**
 
 Utiliser la section "Expérience détaillée" pour ajouter:
+
 - Missions détaillées Upwiser (Dekra, iBP, Robin Finance)
 - Éventuellement missions détaillées Cast (JOA Online, Pixmania)
 
 **Bénéfice attendu:**
+
 - ✅ Utilisation de l'espace disponible (section déjà prévue)
 - ✅ Détails pour recruteurs intéressés
 - ✅ Mots-clés ATS supplémentaires
@@ -958,6 +1028,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 ### Priorisation des Corrections
 
 🔴🔴 **Corrections critiques (immédiate):**
+
 1. **Indépendant:** 06/1999 → 09/2002 (ou 07/2002)
    - Erreur chronologique majeure (études 1999-2002)
    - Impact crédibilité très élevé
@@ -982,6 +1053,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 #### 🔴🔴 Très Haute Priorité (Critique - À faire immédiatement)
 
 **R01 - Corriger erreur dates Indépendant** (src/cv.typ:169)
+
 - **Problème:** 06/1999 - 06/2004 (impossible, études 1999-2002)
 - **Correction:** 09/2002 - 06/2004 (ou 07/2002 selon documents)
 - **Impact:** Crédibilité du CV compromise, erreur chronologique évidente
@@ -989,6 +1061,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 - **Trigramme suggéré:** CNT (Content)
 
 **R02 - Clarifier et corriger dates Boonty** (src/cv.typ:162)
+
 - **Problème:** Écarts entre CV 2019 (06/2004-08/2006), CV 2025 (07/2004-07/2006) et clarification utilisateur (06/2004-07/2006)
 - **Action:** Vérifier documents officiels (KBIS, contrats, bulletins paie)
 - **Correction attendue:** Probablement 06/2004 - 07/2006
@@ -1000,6 +1073,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 #### 🔴 Haute Priorité (Important - À traiter rapidement)
 
 **R03 - Ajouter 3 missions détaillées Upwiser** (src/cv.typ:253 section "Expérience détaillée")
+
 - **Problème:** Perte de 12 missions détaillées (6 majeures + 6 autres interventions)
 - **Missions à ajouter:**
   1. Dekra Programme Next (10/2013-02/2015) - 30 personnes, 10k j/h, Feature Teams, TDD/BDD
@@ -1011,6 +1085,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 - **Trigramme suggéré:** CNT (Content)
 
 **R04 - Restaurer description Boonty** (src/cv.typ:161-165)
+
 - **Problème:** Description vide (vs 400k€/mois, framework, international en 2019)
 - **Contenu à ajouter:**
   - Gestion deux projets pilotes 400k€/mois chacun
@@ -1023,6 +1098,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 - **Trigramme suggéré:** CNT (Content)
 
 **R05 - Enrichir description CDiscount** (src/cv.typ:137-146)
+
 - **Problème:** 9 bullets détaillés (2019) → 3 bullets génériques (2025)
 - **Contenu à ajouter:**
   - Certification PCI DSS (sécurité paiement)
@@ -1035,6 +1111,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 - **Trigramme suggéré:** CNT (Content)
 
 **R06 - Restaurer centres d'intérêt concrets** (src/cv.typ:43-46)
+
 - **Problème:** 5 activités concrètes (2019) → 3 thématiques génériques (2025)
 - **Contenu à restaurer:**
   - Intelligence artificielle - Application Gen-e2, veille technologique
@@ -1048,6 +1125,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 #### 🟡 Moyenne Priorité (Souhaitable - À planifier)
 
 **R07 - Ajouter certifications manquantes** (src/cv.typ:220-250)
+
 - **Certifications à ajouter:**
   1. Professional Scrum Developer (PSD) - 2015, Scrum.org
   2. Facilitation Graphique - 2014, Ayeba/R. Couturier
@@ -1057,6 +1135,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 - **Trigramme suggéré:** CNT (Content)
 
 **R08 - Enrichir description Cast SA** (src/cv.typ:148-157)
+
 - **Problème:** 6 missions détaillées (2019) → 3 bullets génériques (2025)
 - **Option 1 (minimale):** Enrichir description principale avec clients et technologies
   - JOA Online (PO équipe 10, Scrum distribué, 10 sous-traitants Europe)
@@ -1068,16 +1147,20 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 - **Trigramme suggéré:** CNT (Content)
 
 **R09 - Restaurer Espagnol (Notions)** (src/cv.typ:66)
+
 - **Problème:** Langue commentée dans le code
 - **Action:** Décommenter la ligne
+
   ```typst
   #item-with-level("Espagnol", 2, subtitle: "Notions")
   ```
+
 - **Impact:** Faible, mais différenciateur pour postes internationaux
 - **Fichier:** src/cv.typ ligne 66
 - **Trigramme suggéré:** CNT (Content)
 
 **R10 - Ajouter compétences manquantes aux pills** (src/cv.typ:69-88)
+
 - **Compétences à ajouter:**
   - DevOps
   - BDD (Behaviour Driven Development)
@@ -1088,6 +1171,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 - **Trigramme suggéré:** CNT (Content)
 
 **R11 - Vérifier date CSM** (src/cv.typ:223-226)
+
 - **Problème:** CSM 2009 (CV 2019) vs 2008 (CV 2025)
 - **Action:** Vérifier certificat original
 - **Impact:** Faible (écart 1 an)
@@ -1095,6 +1179,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 - **Trigramme suggéré:** CNT (Content)
 
 **R12 - Clarifier dates mineures** (multiple)
+
 - **Upwiser début:** 09/2013 ou 10/2013
 - **CDiscount fin:** 09/2013 ou 10/2013
 - **Cast SA début:** 07/2006 ou 08/2006
@@ -1105,6 +1190,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 #### 🟢 Basse Priorité (Optionnel - À considérer)
 
 **R13 - Enrichir description Indépendant** (src/cv.typ:167-172)
+
 - **Problème:** Description vide (après correction dates critiques)
 - **Contenu suggéré:**
   - Création sites internet PME et associations
@@ -1115,6 +1201,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 - **Trigramme suggéré:** CNT (Content)
 
 **R14 - Considérer tableau récapitulatif compétences** (Nouveau)
+
 - **Idée:** Ajouter tableau style CV 2019 (5 catégories) en complément des pills
 - **Bénéfice:** Structure pédagogique, scannabilité
 - **Contrainte:** Espace limité (2 pages A4)
@@ -1140,6 +1227,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 | R11-R14 - Autres | 🟡/🟢 | Faible | Faible-Moyen | Variable | ⭐⭐ |
 
 **Ordre d'exécution recommandé (Quick Wins first):**
+
 1. R01 (dates Indépendant) - 5 min
 2. R04 (description Boonty) - 10 min
 3. R05 (description CDiscount) - 15 min
@@ -1176,17 +1264,20 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 ### Points Forts à Conserver
 
 ✅ **Positionnement moderne:**
+
 - Titre "Crafting Technology Officer"
 - Expérience CTO PALO IT détaillée
 - Technologies actuelles (IA, TypeScript, Rust)
 
 ✅ **Format professionnel:**
+
 - Template Typst neat-cv
 - Sidebar structurée
 - Palette couleurs cohérente
 - Photo professionnelle
 
 ✅ **Études enrichies:**
+
 - Mentions ajoutées
 - Mémoires/sujets de recherche
 - Baccalauréat ajouté
@@ -1194,6 +1285,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 ### Points Critiques à Corriger
 
 🔴🔴 **Erreurs critiques:**
+
 1. Dates Indépendant (1999 → 2002)
 2. Dates Boonty (à documenter avec preuves)
 
@@ -1223,6 +1315,7 @@ Utiliser la section "Expérience détaillée" pour ajouter:
 ### Bénéfice Attendu
 
 Après correction des recommandations 🔴🔴 et 🔴:
+
 - **Score attendu:** 9/10
 - **Crédibilité:** Excellente (erreurs corrigées, preuves concrètes)
 - **ATS:** Très bon (mots-clés clients, technologies, certifications)
@@ -1237,6 +1330,7 @@ Après correction des recommandations 🔴🔴 et 🔴:
 ---
 
 **Métadonnées:**
+
 - **Fichier:** audit-report.md
 - **Analyse:** CNT-013
 - **Date:** 2025-11-14

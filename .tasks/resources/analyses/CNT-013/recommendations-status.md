@@ -23,6 +23,7 @@
 ## 🔴🔴 Très Haute Priorité (Critique)
 
 ### R01 - Corriger erreur dates Indépendant
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Incohérence de dates (critique)
@@ -35,6 +36,7 @@
 - **Effort:** Très faible (correction 1 ligne)
 
 ### R02 - Clarifier et corriger dates Boonty/Qualia Service
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Incohérence de dates
@@ -51,6 +53,7 @@
 ## 🔴 Haute Priorité (Important)
 
 ### R03 - Ajouter 3 missions détaillées Upwiser
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Enrichissement contenu
@@ -63,6 +66,7 @@
 - **Effort:** Élevé (rédaction 3 missions détaillées)
 
 ### R04 - Restaurer description Boonty
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Enrichissement contenu
@@ -75,6 +79,7 @@
 - **Effort:** Faible (ajout 5 bullets)
 
 ### R05 - Enrichir description CDiscount
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Enrichissement contenu
@@ -87,6 +92,7 @@
 - **Effort:** Faible (ajout 4 bullets)
 
 ### R06 - Restaurer centres d'intérêt concrets
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Enrichissement contenu
@@ -103,6 +109,7 @@
 ## 🟡 Moyenne Priorité (Souhaitable)
 
 ### R07 - Ajouter certifications manquantes
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Certification
@@ -115,6 +122,7 @@
 - **Effort:** Faible (ajout 3 entrées)
 
 ### R08 - Enrichir description Cast SA
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Enrichissement contenu
@@ -127,6 +135,7 @@
 - **Effort:** Moyen (enrichissement description ou ajout missions)
 
 ### R09 - Restaurer Espagnol (Notions)
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Langue
@@ -139,6 +148,7 @@
 - **Effort:** Très faible (décommenter 1 ligne)
 
 ### R10 - Ajouter compétences manquantes aux pills
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Compétences
@@ -151,6 +161,7 @@
 - **Effort:** Faible (ajout 4 items pills)
 
 ### R11 - Vérifier date certification CSM
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Certification
@@ -163,6 +174,7 @@
 - **Effort:** Faible (vérification certificat)
 
 ### R12 - Clarifier dates mineures (Upwiser, CDiscount, Cast)
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Incohérence de dates
@@ -179,6 +191,7 @@
 ## 🟢 Basse Priorité (Optionnel)
 
 ### R13 - Enrichir description Indépendant
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Enrichissement contenu
@@ -191,6 +204,7 @@
 - **Effort:** Faible (ajout 3 bullets)
 
 ### R14 - Considérer tableau récapitulatif compétences
+
 - ☐ **Statut:** ⏳ En attente
 - **Tâche associée:** -
 - **Catégorie:** Structure/Layout
@@ -213,6 +227,7 @@
 ```
 
 **Exemples:**
+
 ```bash
 # Créer tâches pour recommandations haute priorité uniquement
 /task-from-analysis --analysis-id=CNT-013 --filter=high
@@ -233,6 +248,7 @@
 3. Ajouter l'ID de la tâche dans "Tâche associée"
 
 **Exemple:**
+
 ```markdown
 ### R01 - Corriger erreur dates Indépendant
 - ☑ **Statut:** 🔨 Tâche créée
@@ -245,6 +261,7 @@
 2. Ajouter la date de complétion
 
 **Exemple:**
+
 ```markdown
 ### R01 - Corriger erreur dates Indépendant
 - ☑ **Statut:** ✅ Terminé (2025-11-15)
@@ -258,6 +275,7 @@
 3. Ajouter la raison du rejet
 
 **Exemple:**
+
 ```markdown
 ### RXX - Titre de la recommandation
 - ☒ **Statut:** 🚫 Rejeté
