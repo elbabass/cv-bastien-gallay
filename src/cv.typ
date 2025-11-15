@@ -245,7 +245,7 @@
 
 #entry(
   title: "SAFe Program Consultant (SPC4 et SPC5)",
-  date: "2018",
+  date: "2018, 2020",
   institution: "Scaled Agile, Inc.",
 )[]
 

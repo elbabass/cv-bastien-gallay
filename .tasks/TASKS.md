@@ -45,7 +45,6 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 | [CNT-004](tasks/CNT-004-corriger-dates-boonty.md) | Corriger les dates de Boonty | ⏳ À faire | 🔴 Haute | 2025-10-29 |
 | [CNT-005](tasks/CNT-005-corriger-dates-debut-freelance.md) | Corriger les dates de début Freelance | ⏳ À faire | 🔴 Haute | 2025-10-29 |
 | [CNT-006](tasks/CNT-006-ajouter-certifications-manquantes.md) | Ajouter les certifications manquantes | ⏳ À faire | 🔴 Haute | 2025-10-29 |
-| [CNT-007](tasks/CNT-007-corriger-date-safe.md) | Corriger la date SAFe | ⏳ À faire | 🔴 Haute | 2025-10-29 |
 | [CNT-008](tasks/CNT-008-ajouter-experience-ibp.md) | Ajouter l'expérience i-BP | ⏳ À faire | 🔴 Haute | 2025-10-29 |
 | [CNT-009](tasks/CNT-009-ajouter-experience-dekra.md) | Ajouter l'expérience DEKRA | ⏳ À faire | 🔴 Haute | 2025-10-29 |
 | [CNT-010](tasks/CNT-010-ajouter-section-benevolat.md) | Ajouter section Bénévolat | ⏳ À faire | 🔴 Haute | 2025-10-29 |
@@ -65,6 +64,7 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 
 | ID | Titre | Statut | Priorité | Terminé le |
 |----|-------|--------|----------|------------|
+| [CNT-007](tasks/CNT-007-corriger-date-safe.md) | Corriger la date SAFe | ✅ Terminé | 🔴 Haute | 2025-11-15 |
 | [CNT-003](tasks/CNT-003-corriger-date-fin-cto-palo-it.md) | Corriger la date de fin CTO chez PALO IT | ✅ Terminé | 🔴 Haute | 2025-11-15 |
 | [CNT-013](tasks/CNT-013-analyse-ancien-cv-2019.md) | Analyse ancien CV > 5 ans (2019) | ✅ Terminé | 🔴 Haute | 2025-11-14 |
 | [CNT-001](tasks/CNT-001-linkedin-audit.md) | Audit LinkedIn | ✅ Terminé | 🔴 Haute | 2025-11-05 |
@@ -137,9 +137,9 @@ Closes TPL-001"
 ## Statistiques
 
 - **Total**: 22 tâches
-- **À faire**: 16
+- **À faire**: 15
 - **En cours**: 0
-- **Terminées**: 5
+- **Terminées**: 6
 - **Bloquées**: 0
 
 **Prochains IDs disponibles par trigramme**:
