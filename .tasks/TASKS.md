@@ -58,7 +58,7 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 | [QUA-001](tasks/QUA-001-verification.md) | Étapes de vérification du CV | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
 | [TPL-002](tasks/TPL-002-template-system.md) | Système de changement de template | ⏳ À faire | 🟢 Basse | 2025-10-28 |
 | [PIP-001](tasks/PIP-001-cicd-pipeline.md) | CI/CD pour publication automatique | ⏳ À faire | 🟢 Basse | 2025-10-28 |
-| [INF-001](tasks/INF-001-mcp-integration.md) | Intégration MCP pour vérification Claude | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
+| [INF-001](tasks/INF-001-mcp-integration.md) | Améliorer visuellement le CV avec l'aide de Claude | ⏳ À faire | 🟡 Moyenne | 2025-10-28 |
 
 ---
 

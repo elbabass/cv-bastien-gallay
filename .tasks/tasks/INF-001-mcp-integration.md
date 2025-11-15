@@ -1,4 +1,4 @@
-# INF-001: Intégration MCP pour vérification Claude
+# INF-001: Amélioration visuelle du CV avec Claude
 
 ---
 
@@ -7,55 +7,54 @@
 | Champ | Valeur |
 |-------|--------|
 | **ID** | INF-001 |
-| **Titre** | Ajouter MCP pour vérification Claude |
+| **Titre** | Améliorer visuellement le CV avec l'aide de Claude |
 | **Statut** | ⏳ À faire |
 | **Priorité** | 🟡 Moyenne |
 | **Trigramme** | INF (Infrastructure) |
-| **Section CV** | N/A |
+| **Section CV** | Visuel / Layout |
 | **Créé le** | 2025-10-28 |
 | **Cible** | 2025-12-01 |
 | **Terminé le** | |
-| **Temps estimé** | 4-6 heures |
+| **Temps estimé** | 2-4 heures |
 | **Temps réel** | |
 
 ---
 
 ## Description
 
-Créer un serveur MCP (Model Context Protocol) permettant à Claude d'analyser et de vérifier automatiquement les améliorations apportées au CV.
+Mettre en place un workflow permettant à Claude d'analyser visuellement le CV compilé (PDF) et de proposer des améliorations de design, mise en page et présentation selon les directives fournies.
 
 ### Contexte
 
-Le Model Context Protocol (MCP) permet de créer des outils personnalisés que Claude peut utiliser. Un serveur MCP dédié au CV permettrait à Claude de:
+Le CV est actuellement généré en PDF via Typst, mais l'optimisation visuelle nécessite de voir le rendu final. Claude possède plusieurs capacités qui peuvent être exploitées:
 
-- Lire le contenu du CV
-- Vérifier la qualité du contenu
-- Proposer des améliorations
-- Valider les modifications avant commit
+- Lecture et analyse de fichiers PDF
+- Conversion et analyse d'images
+- Analyse de mise en page et de design
+- Suggestions d'amélioration basées sur les bonnes pratiques
 
 ### Objectif
 
-Créer un serveur MCP avec les fonctionnalités suivantes:
+Établir un processus permettant à Claude de:
 
-- Lecture du CV Typst
-- Analyse de la qualité du contenu
-- Vérification de la cohérence
-- Suggestions d'amélioration
-- Validation pré-commit
+- Visualiser le CV compilé (PDF ou captures d'écran)
+- Analyser la mise en page, l'équilibre visuel, la lisibilité
+- Proposer des améliorations concrètes de design
+- Suggérer des modifications au code Typst pour améliorer le rendu
+- Valider visuellement les changements apportés
 
 ---
 
 ## Sous-tâches
 
-- [ ] Étudier le Model Context Protocol (MCP)
-- [ ] Identifier les fonctionnalités utiles pour le CV
-- [ ] Créer la structure du serveur MCP
-- [ ] Implémenter les outils de lecture du CV
-- [ ] Implémenter les outils de vérification
-- [ ] Implémenter les outils de suggestion
-- [ ] Tester le serveur avec Claude
-- [ ] Documenter l'utilisation dans CLAUDE.md
-- [ ] Ajouter configuration MCP au projet
+- [ ] Identifier les méthodes disponibles pour l'analyse visuelle (PDF direct, captures d'écran, MCP)
+- [ ] Tester la lecture du PDF compilé par Claude
+- [ ] Établir un workflow d'analyse visuelle (compile → read → analyze → suggest)
+- [ ] Définir les critères d'évaluation visuelle (lisibilité, équilibre, hiérarchie, espaces)
+- [ ] Créer un guide de directives visuelles pour le CV
+- [ ] Tester le workflow complet avec des modifications réelles
+- [ ] Documenter le processus dans CLAUDE.md
+- [ ] (Optionnel) Créer des scripts d'automatisation si nécessaire
 
 ---
 
@@ -63,67 +62,62 @@ Créer un serveur MCP avec les fonctionnalités suivantes:
 
 > Instructions spécifiques pour l'assistance IA
 
-**MCP - Model Context Protocol:**
+**Approches possibles pour l'analyse visuelle:**
 
-Le MCP permet de créer des serveurs d'outils que Claude peut utiliser. Pour ce projet, on pourrait créer:
+1. **Lecture directe du PDF** (méthode privilégiée)
+   - Utiliser la capacité native de Claude à lire les PDFs
+   - Analyser le rendu visuel directement
+   - Avantage: Simple, pas d'infrastructure supplémentaire
 
-**Outils MCP à implémenter:**
+2. **Conversion en images**
+   - Compiler le CV en PDF
+   - Convertir les pages en images (PNG/JPG)
+   - Claude analyse les captures d'écran
+   - Avantage: Visualisation exacte du rendu
 
-1. **read_cv** - Lire le contenu du CV Typst
-2. **analyze_quality** - Analyser la qualité du contenu
-3. **check_consistency** - Vérifier la cohérence (dates, formatage)
-4. **suggest_improvements** - Proposer des améliorations
-5. **validate_changes** - Valider les modifications
+3. **Model Context Protocol (MCP)**
+   - Créer un serveur MCP dédié si nécessaire
+   - Avantage: Automatisation poussée
+   - Inconvénient: Plus complexe à mettre en place
 
-**Structure suggérée:**
+**Workflow recommandé:**
 
-```text
-mcp-server/
-├── package.json
-├── src/
-│   ├── index.ts
-│   ├── tools/
-│   │   ├── readCv.ts
-│   │   ├── analyzeQuality.ts
-│   │   ├── checkConsistency.ts
-│   │   ├── suggestImprovements.ts
-│   │   └── validateChanges.ts
-│   └── utils/
-│       └── typstParser.ts
-└── README.md
+```bash
+# 1. Compiler le CV
+just build
+
+# 2. Claude lit le PDF
+Read dist/cv.pdf
+
+# 3. Analyse visuelle selon les critères
+- Équilibre des espaces blancs
+- Hiérarchie visuelle (titres, sous-titres, contenu)
+- Lisibilité (police, taille, contraste)
+- Cohérence du design
+- Alignement et structure
+
+# 4. Proposer modifications Typst
+- Ajuster les marges
+- Modifier les tailles de police
+- Améliorer l'espacement
+- Optimiser la mise en page
+
+# 5. Itérer jusqu'à satisfaction
 ```
 
-**Technologies:**
+**Critères d'évaluation visuelle:**
 
-- Node.js / TypeScript
-- MCP SDK: `@modelcontextprotocol/sdk`
-- Parser Typst (si disponible)
-
-**Configuration Claude Desktop:**
-
-```json
-{
-  "mcpServers": {
-    "cv-helper": {
-      "command": "node",
-      "args": ["/path/to/mcp-server/dist/index.js"],
-      "env": {
-        "CV_PATH": "/Users/bastiengallay/Dev/cv/neat-cv"
-      }
-    }
-  }
-}
-```
-
-**Fichiers à créer:**
-
-- `mcp-server/` (dossier complet)
-- `mcp-server/README.md` (documentation)
-- Configuration exemple
+- **Lisibilité**: Police claire, taille appropriée, contraste suffisant
+- **Équilibre**: Répartition harmonieuse des éléments sur la page
+- **Hiérarchie**: Distinction claire entre niveaux d'information
+- **Espacement**: Marges, padding, line-height cohérents
+- **Professionnalisme**: Aspect soigné et moderne
+- **Scannabilité**: Facilité de lecture rapide par un recruteur (< 30s)
 
 **Fichiers à modifier:**
 
-- [CLAUDE.md](../../CLAUDE.md) - Ajouter documentation MCP
+- [CLAUDE.md](../../CLAUDE.md) - Documenter le workflow d'analyse visuelle
+- [src/cv.typ](../../src/cv.typ) - Appliquer les améliorations de design
 
 ---
 
@@ -133,37 +127,39 @@ mcp-server/
 
 **Décisions à prendre:**
 
-- Implémenter en TypeScript ou Python?
-- Quelles fonctionnalités prioriser?
-- Faut-il intégrer avec les scripts de vérification existants ([QUA-001](./QUA-001-verification.md))?
-- Héberger le serveur MCP où? (local seulement ou distant?)
+- Quelle méthode privilégier? (Lecture PDF directe, images, ou MCP)
+- Quels aspects visuels prioriser? (lisibilité, équilibre, modernité)
+- Faut-il créer un guide de style visuel?
+- Automatiser le workflow ou rester manuel?
 
 **Use cases attendus:**
 
-- "Claude, analyse mon CV et dis-moi ce qui peut être amélioré"
-- "Claude, vérifie la cohérence des dates dans mon CV"
-- "Claude, suggère des reformulations pour la section expérience"
-- "Claude, valide mes changements avant que je commit"
+- "Claude, analyse visuellement mon CV et suggère des améliorations"
+- "Claude, vérifie l'équilibre de la mise en page"
+- "Claude, comment améliorer la hiérarchie visuelle?"
+- "Claude, propose des ajustements de spacing et marges"
+- "Claude, compare avant/après mes modifications"
 
 **Avantages:**
 
-- Feedback IA contextuel et spécialisé
-- Automatisation de la revue de CV
-- Intégration native avec Claude Code
-- Évolutif (ajout de nouvelles fonctionnalités)
+- Feedback visuel expert de Claude
+- Optimisation du design sans compétences graphiques poussées
+- Itérations rapides (compile → analyze → modify → repeat)
+- Amélioration de l'impact visuel du CV
 
-**Limitations:**
+**Directives visuelles à définir:**
 
-- Nécessite Claude Desktop (ou API)
-- Configuration locale requise
-- Maintenance du serveur MCP
+- Style souhaité (moderne, classique, minimaliste, créatif)
+- Public cible (startup tech, grande entreprise, conseil)
+- Contraintes (1-2 pages, noir et blanc ou couleur)
+- Éléments visuels obligatoires (photo, icônes, graphiques)
 
 **Après implémentation:**
 
-- Configurer dans Claude Desktop
-- Tester toutes les fonctionnalités
-- Documenter les use cases
-- Partager avec la communauté?
+- Documenter le workflow dans CLAUDE.md
+- Créer des exemples avant/après
+- Définir un checklist de validation visuelle
+- Intégrer à la tâche QUA-001 (vérification globale)
 
 ---
 
@@ -181,10 +177,11 @@ mcp-server/
 
 ### Ressources
 
-- Model Context Protocol: <https://modelcontextprotocol.io/>
-- MCP SDK: <https://github.com/modelcontextprotocol/sdk>
-- Claude Desktop MCP: <https://docs.claude.com/en/docs/claude-code/mcp>
-- Exemples MCP: <https://github.com/modelcontextprotocol/servers>
+- Typst Documentation: <https://typst.app/docs/>
+- CV Design Best Practices: <https://www.resumegenius.com/blog/resume-help/resume-design>
+- Visual Hierarchy Principles: <https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns>
+- PDF to Image (si nécessaire): ImageMagick, Poppler utils
+- Model Context Protocol (optionnel): <https://modelcontextprotocol.io/>
 
 ---
 
@@ -193,15 +190,17 @@ mcp-server/
 ### Commits intermédiaires
 
 ```bash
-git commit -m "feat(mcp): ✨ add MCP server structure
+git commit -m "docs(cv): 📝 add visual analysis workflow
 
-Created mcp-server/ with basic structure.
+Documented workflow for visual CV analysis with Claude.
 
 Refs INF-001"
 
-git commit -m "feat(mcp): ✨ implement CV analysis tools
+git commit -m "style(cv): 🎨 improve visual layout based on analysis
 
-Added read_cv, analyze_quality, check_consistency tools.
+- Adjusted margins and spacing
+- Improved visual hierarchy
+- Enhanced readability
 
 Refs INF-001"
 ```
@@ -209,37 +208,35 @@ Refs INF-001"
 ### Commit final
 
 ```bash
-git commit -m "feat(mcp): ✨ complete MCP server for CV verification
+git commit -m "docs(cv): ✨ complete visual optimization workflow
 
-- Created MCP server with CV analysis tools
-- Implemented read_cv, analyze_quality, check_consistency
-- Implemented suggest_improvements, validate_changes
-- Added documentation and configuration examples
-- Updated CLAUDE.md with MCP setup instructions
-- Tested all tools with Claude
+- Established workflow for Claude-assisted visual analysis
+- Defined evaluation criteria (readability, balance, hierarchy)
+- Documented process in CLAUDE.md
+- Applied visual improvements to cv.typ
+- Created before/after examples
 
 Closes INF-001"
 ```
 
 **Format suggéré:**
 
-- **Type**: feat (nouvelle fonctionnalité)
-- **Scope**: mcp, infrastructure
-- **Emoji**: ✨ (feature)
+- **Type**: docs, style (documentation, amélioration visuelle)
+- **Scope**: cv, layout
+- **Emoji**: 🎨 (style), 📝 (documentation)
 
 ---
 
 ## Tests / Vérifications
 
-- [ ] Le serveur MCP démarre sans erreur
-- [ ] Claude peut se connecter au serveur
-- [ ] L'outil read_cv fonctionne
-- [ ] L'outil analyze_quality fonctionne
-- [ ] L'outil check_consistency fonctionne
-- [ ] L'outil suggest_improvements fonctionne
-- [ ] L'outil validate_changes fonctionne
-- [ ] La documentation est claire
-- [ ] CLAUDE.md est à jour
+- [ ] Claude peut lire et analyser le PDF du CV
+- [ ] Le workflow d'analyse visuelle fonctionne (compile → read → analyze)
+- [ ] Les critères d'évaluation visuelle sont clairs et applicables
+- [ ] Les suggestions d'amélioration sont concrètes et actionnables
+- [ ] Les modifications Typst améliorent effectivement le rendu visuel
+- [ ] Le CV reste professionnel et lisible après modifications
+- [ ] La documentation du workflow est complète dans CLAUDE.md
+- [ ] Des exemples avant/après sont disponibles
 
 ---
 
@@ -255,15 +252,31 @@ Closes INF-001"
 
 [À remplir une fois la tâche terminée]
 
-**Structure finale attendue:**
+**Workflow final attendu:**
 
-```text
-neat-cv/
-├── mcp-server/
-│   ├── package.json
-│   ├── src/
-│   │   ├── index.ts
-│   │   └── tools/
-│   └── README.md
-└── CLAUDE.md               # Mis à jour avec instructions MCP
+```bash
+# 1. Compiler le CV
+just build
+
+# 2. Claude analyse visuellement
+Read dist/cv.pdf
+
+# 3. Proposer améliorations basées sur critères
+- Lisibilité, équilibre, hiérarchie...
+
+# 4. Appliquer modifications à cv.typ
+Edit src/cv.typ
+
+# 5. Recompiler et valider
+just build
+Read dist/cv.pdf
+
+# 6. Itérer si nécessaire
 ```
+
+**Documentation attendue dans CLAUDE.md:**
+
+- Section "Visual Analysis Workflow"
+- Critères d'évaluation visuelle
+- Exemples de suggestions d'amélioration
+- Checklist de validation visuelle
