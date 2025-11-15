@@ -8,15 +8,15 @@
 |-------|--------|
 | **ID** | CNT-011 |
 | **Titre** | Corriger écarts mineurs de dates (Cdiscount) |
-| **Statut** | 🔄 En cours |
+| **Statut** | ✅ Terminé |
 | **Priorité** | 🔴 Haute |
 | **Trigramme** | CNT |
 | **Section CV** | Experience |
 | **Créé le** | 2025-10-29 |
 | **Cible** | - |
-| **Terminé le** | - |
+| **Terminé le** | 2025-11-15 |
 | **Temps estimé** | 0.25 heures |
-| **Temps réel** | - |
+| **Temps réel** | 0.1 heures |
 
 ---
 
@@ -44,9 +44,9 @@ Corriger la date de fin pour aligner parfaitement le CV avec LinkedIn.
 
 ## Sous-tâches
 
-- [ ] Modifier la date de fin de 09/2013 à 10/2013 dans [src/cv.typ:139](../../src/cv.typ#L139)
-- [ ] Compiler le CV avec `just build`
-- [ ] Vérifier le rendu dans le PDF
+- [x] Modifier la date de fin de 09/2013 à 10/2013 dans [src/cv.typ:139](../../src/cv.typ#L139)
+- [x] Compiler le CV avec `just build`
+- [x] Vérifier le rendu dans le PDF
 
 ---
 
@@ -127,9 +127,23 @@ Closes CNT-011"
 |------|--------|---------|
 | 2025-10-29 | Création | Tâche créée depuis recommandation CNT-001-R10 |
 | 2025-11-15 | En cours | Début du travail |
+| 2025-11-15 | Terminé | Tâche complétée |
 
 ---
 
 ## Résultat final
 
-[À remplir une fois la tâche terminée]
+**Ce qui a été fait:**
+
+- Correction de la date de fin de l'expérience Cdiscount de 09/2013 à 10/2013 dans src/cv.typ:139
+- Compilation du CV vérifiée sans erreur
+- Rendu PDF vérifié (affiche correctement 10/2013)
+- Alignement complet avec LinkedIn (oct. 2013)
+
+**Difficultés rencontrées:**
+
+Aucune - correction simple et directe.
+
+**Améliorations futures:**
+
+Aucune

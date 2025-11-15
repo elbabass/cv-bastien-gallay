@@ -48,7 +48,6 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 | [CNT-008](tasks/CNT-008-ajouter-experience-ibp.md) | Ajouter l'expérience i-BP | ⏳ À faire | 🔴 Haute | 2025-10-29 |
 | [CNT-009](tasks/CNT-009-ajouter-experience-dekra.md) | Ajouter l'expérience DEKRA | ⏳ À faire | 🔴 Haute | 2025-10-29 |
 | [CNT-010](tasks/CNT-010-ajouter-section-benevolat.md) | Ajouter section Bénévolat | ⏳ À faire | 🔴 Haute | 2025-10-29 |
-| [CNT-011](tasks/CNT-011-corriger-ecarts-mineurs-cdiscount.md) | Corriger écarts mineurs de dates (Cdiscount) | 🔄 En cours | 🔴 Haute | 2025-10-29 |
 | [CNT-012](tasks/CNT-012-corriger-ecarts-mineurs-cast.md) | Corriger écarts mineurs de dates (Cast) | ⏳ À faire | 🔴 Haute | 2025-10-29 |
 | [CNT-014](tasks/CNT-014-analyse-experience-palo-it.md) | Analyse expérience PALO IT (journal/tâches CTO) | ⏳ À faire | 🔴 Haute | 2025-11-14 |
 | [CNT-015](tasks/CNT-015-analyse-cv-flash.md) | Analyse CV Flash (slide unique) | ⏳ À faire | 🔴 Haute | 2025-11-14 |
@@ -64,6 +63,7 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 
 | ID | Titre | Statut | Priorité | Terminé le |
 |----|-------|--------|----------|------------|
+| [CNT-011](tasks/CNT-011-corriger-ecarts-mineurs-cdiscount.md) | Corriger écarts mineurs de dates (Cdiscount) | ✅ Terminé | 🔴 Haute | 2025-11-15 |
 | [CNT-007](tasks/CNT-007-corriger-date-safe.md) | Corriger la date SAFe | ✅ Terminé | 🔴 Haute | 2025-11-15 |
 | [CNT-003](tasks/CNT-003-corriger-date-fin-cto-palo-it.md) | Corriger la date de fin CTO chez PALO IT | ✅ Terminé | 🔴 Haute | 2025-11-15 |
 | [CNT-013](tasks/CNT-013-analyse-ancien-cv-2019.md) | Analyse ancien CV > 5 ans (2019) | ✅ Terminé | 🔴 Haute | 2025-11-14 |
@@ -138,8 +138,8 @@ Closes TPL-001"
 
 - **Total**: 22 tâches
 - **À faire**: 14
-- **En cours**: 1
-- **Terminées**: 6
+- **En cours**: 0
+- **Terminées**: 7
 - **Bloquées**: 0
 
 **Prochains IDs disponibles par trigramme**:
