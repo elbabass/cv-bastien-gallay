@@ -136,7 +136,7 @@
 
 #entry(
   title: "Chef de projet technique et Scrum Master",
-  date: "10/2010 - 09/2013",
+  date: "10/2010 - 10/2013",
   institution: "CDiscount",
   location: "Bordeaux, France",
 )[
