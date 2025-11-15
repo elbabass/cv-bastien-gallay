@@ -143,16 +143,19 @@ Closes CNT-003"
 **Vérification effectuée - Aucune correction nécessaire:**
 
 **Clarification utilisateur (2025-11-15):**
+
 - La date de fin réelle du poste CTO est **août 2025 (08/2025)**
 - Le CV affiche correctement **08/2025** ✅
 - C'est **LinkedIn qui est erroné** (affiche 10/2025) ❌
 
 **Conclusion:**
+
 - Le CV n'a pas besoin de modification
 - La source de vérité est l'utilisateur, pas LinkedIn
 - LinkedIn devra être mis à jour pour afficher 08/2025 (hors scope de ce projet CV)
 
 **Action prise:**
+
 - Vérification du CV: dates confirmées correctes (08/2025)
 - Documentation de la clarification dans cette tâche
 - Aucune modification apportée au CV

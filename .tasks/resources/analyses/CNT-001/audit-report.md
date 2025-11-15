@@ -42,15 +42,15 @@ Cette analyse comparative approfondie révèle des écarts significatifs entre l
 
 **🟠 Importants (à traiter rapidement):**
 
-4. Engagement bénévole non valorisé (13+ ans)
-5. 10 compétences manquantes (E-commerce, Entrepreneuriat, Lean Startup, etc.)
-6. Section "À propos" trop générique
+1. Engagement bénévole non valorisé (13+ ans)
+2. 10 compétences manquantes (E-commerce, Entrepreneuriat, Lean Startup, etc.)
+3. Section "À propos" trop générique
 
 **🟡 Souhaitables:**
 
-7. Espagnol commenté mais présent sur LinkedIn
-8. Certification PSD-I manquante
-9. Incohérences de dates mineures
+1. Espagnol commenté mais présent sur LinkedIn
+2. Certification PSD-I manquante
+3. Incohérences de dates mineures
 
 ---
 
@@ -83,6 +83,7 @@ Cette analyse comparative approfondie révèle des écarts significatifs entre l
 > "L'écart entre les dates de fin d'Upwiser a pour raison: j'ai arrêté mon activité plein temps en janvier 2021, mais j'ai gardé l'entreprise jusqu'à il y a un an, et elle est officiellement fermée depuis septembre 2025. J'ai simplifié sur le CV en mettant la date de transition vers PALO IT en janvier 2021. Depuis, j'ai fait la gérance et quelques missions de formation ponctuelles."
 
 **Explication:**
+
 - **Janvier 2021:** Fin activité **plein temps** Upwiser → Transition vers PALO IT
 - **01/2021 - 11/2024:** Maintien structure (gérance + formations ponctuelles)
 - **Septembre 2025:** Fermeture officielle
@@ -115,6 +116,7 @@ Le CV affiche la fin d'activité professionnelle principale, ce qui est appropri
 **Score de cohérence révisé:** 7/10 → **8/10**
 
 Les 3 "incohérences critiques" n'étaient pas des erreurs du CV mais:
+
 1. Une période de chômage (normale à exclure)
 2. Des contextes différents (activité plein temps vs administrative)
 3. Une erreur LinkedIn (CV correct)
@@ -122,6 +124,7 @@ Les 3 "incohérences critiques" n'étaient pas des erreurs du CV mais:
 **Priorités révisées:**
 
 **🔴 Vraiment critiques (restent):**
+
 1. Ajouter section engagement bénévole (R04)
 2. Enrichir section "À propos" (R05)
 3. Ajouter compétences business (R06)
@@ -137,7 +140,7 @@ Les 3 "incohérences critiques" n'étaient pas des erreurs du CV mais:
 | Champ | CV | LinkedIn | Cohérence |
 |-------|-----|----------|-----------|
 | Nom | Bastien Gallay | Bastien Gallay | ✅ |
-| Email | bastien@gallay.org | (non exposé dans export) | ✅ |
+| Email | <bastien@gallay.org> | (non exposé dans export) | ✅ |
 | Téléphone | (+33) 06 72 66 47 38 | (non exposé) | ✅ |
 | Adresse | 17 rue du Petit Goave, 33000 Bordeaux | Bordeaux, 33000 | ✅ |
 | LinkedIn | bastiengallay | bastiengallay | ✅ |
@@ -727,12 +730,12 @@ Cohérence: ✅ Parfait
 
 **P1 - Importants:**
 
-4. ✅ **Enrichir section "À propos"**
+1. ✅ **Enrichir section "À propos"**
    - Action: Ajouter spécialisations LinkedIn (Startup, Product Management, SAFe)
    - Effort: 10 min
    - Impact: Mots-clés ATS, positionnement clair
 
-5. ✅ **Ajouter section "Engagement bénévole"**
+2. ✅ **Ajouter section "Engagement bénévole"**
    - Action: Créer section avec 3 entrées principales
    - Entrées: Agile Tour (2011-présent), Lean Startup Bordeaux (2012-2018), Collectif Quinconces (2016-2018)
    - Effort: 20 min
@@ -744,22 +747,22 @@ Cohérence: ✅ Parfait
 
 **P2 - Souhaitables:**
 
-6. ✅ **Ajouter compétences business**
+1. ✅ **Ajouter compétences business**
    - Action: Ajouter E-commerce, Entrepreneuriat, Lean Startup
    - Effort: 5 min
    - Impact: Mots-clés ATS, valorisation expertise business
 
-7. ✅ **Ajouter missions i-BP et DEKRA**
+2. ✅ **Ajouter missions i-BP et DEKRA**
    - Action: Créer 2 entrées expérience ou les intégrer dans Upwiser
    - Effort: 30 min
    - Impact: 22 mois d'expérience supplémentaire
 
-8. ✅ **Décommenter Espagnol**
+3. ✅ **Décommenter Espagnol**
    - Action: Décommenter ligne 66
    - Effort: 1 min
    - Impact: Compétence linguistique restaurée
 
-9. ✅ **Ajouter certification PSD-I**
+4. ✅ **Ajouter certification PSD-I**
    - Action: Ajouter entrée "Professional Scrum Developer (PSD-I), Mai 2018"
    - Effort: 3 min
    - Impact: Crédibilité développement
@@ -770,17 +773,17 @@ Cohérence: ✅ Parfait
 
 **P3 - Optionnels:**
 
-10. ✅ **Vérifier dates certifications**
+1. ✅ **Vérifier dates certifications**
     - Action: Consulter certificats originaux SPS et SAFe
     - Effort: 15 min
     - Impact: Précision vérifiable
 
-11. ✅ **Clarifier Boonty/Qualia**
+2. ✅ **Clarifier Boonty/Qualia**
     - Action: Vérifier dates réelles
     - Effort: 10 min
     - Impact: Cohérence historique
 
-12. ✅ **Ajouter technologies historiques**
+3. ✅ **Ajouter technologies historiques**
     - Action: Ajouter .NET, PHP, JavaScript dans compétences
     - Effort: 5 min
     - Impact: Historique technique complet
@@ -819,20 +822,20 @@ Cohérence: ✅ Parfait
 
 ### Questions importantes (pour amélioration)
 
-4. **Boonty:**
+1. **Boonty:**
    - Date de début exacte: Juillet 2004 ou Juin 2005?
    - Relation avec Qualia Services?
 
-5. **Freelance 1999-2002:**
+2. **Freelance 1999-2002:**
    - Activité parallèle aux études?
    - Ou début réel en 2002 (après Master)?
 
-6. **Certifications:**
+3. **Certifications:**
    - SPS: Obtenue en 2016 ou 2017?
    - SAFe: Séquence SPC4 (2018) → SAFe 5 (2020)?
    - SAFe: Statut actuel (valide ou expirée)?
 
-7. **Format CV:**
+4. **Format CV:**
    - Accepter 3 pages ou contraindre à 2 pages?
    - Si 2 pages: quelles informations prioriser?
 
@@ -932,9 +935,9 @@ Cohérence: ✅ Parfait
 
 🔴 **Reste à corriger:**
 
-4. 4 postes manquants (i-BP, DEKRA, ITS Group, Qualia) - missions freelance significatives
-5. Engagement bénévole 13+ ans non valorisé
-6. Compétences sous-représentées (E-commerce, Entrepreneuriat, Lean Startup)
+1. 4 postes manquants (i-BP, DEKRA, ITS Group, Qualia) - missions freelance significatives
+2. Engagement bénévole 13+ ans non valorisé
+3. Compétences sous-représentées (E-commerce, Entrepreneuriat, Lean Startup)
 
 ### Impact des corrections
 

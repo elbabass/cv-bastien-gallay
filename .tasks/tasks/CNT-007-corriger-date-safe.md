@@ -42,6 +42,7 @@ Corriger la date de la certification SAFe pour refléter la réalité (première
 ### Résolution
 
 **Clarification utilisateur (2025-11-15):**
+
 - SPC4 obtenu en **2018** ✅
 - SPC5 obtenu en **2020** ✅
 - Les deux dates sont correctes et doivent être affichées
@@ -154,15 +155,18 @@ Closes CNT-007"
 **Vérification effectuée - Aucune correction nécessaire:**
 
 **Clarification utilisateur (2025-11-15):**
+
 - **SPC4** obtenu en **2018** ✅
 - **SPC5** obtenu en **2020** ✅
 - Les deux certifications sont légitimes et doivent être affichées
 
 **État du CV:**
+
 - Modifié pour afficher: "2018, 2020 - SAFe Program Consultant (SPC4 et SPC5)"
 - Cette formulation montre clairement les deux dates d'obtention distinctes
 
 **Conclusion:**
+
 - Date mise à jour: "2018" → "2018, 2020" ✅
 - La mention explicite des deux dates clarifie la progression de certification
 - Reflète précisément la réalité: SPC4 en 2018, SPC5 en 2020

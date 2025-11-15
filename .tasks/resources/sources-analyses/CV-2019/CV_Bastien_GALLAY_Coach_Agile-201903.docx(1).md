@@ -1,9 +1,8 @@
 
-
 | Bastien Gallay | Français, Anglais, Espagnol | 03 / 03 / 1979 |
 | :---- | :---: | ----: |
 
-# Coach Agile 
+# Coach Agile
 
 # **Domaines d'expertise**
 
@@ -32,11 +31,11 @@
 
 Leader des rencontres Lean Startup Bordeaux – Coaching de porteurs de startups naissantes  
 Orateur dans plusieurs conférences Agiles depuis 2015 (« Moi, coach agile : psychomotricien d'entreprise », « La régression continue » et « Lean Startup »)  
-Organisateur de l'Agile Tour Bordeaux 2012 et 2013 – Coach Agile et Conférencier au Startup Weekend Bordeaux 2012 – Co-fondateur de Ruby Bordeaux 
+Organisateur de l'Agile Tour Bordeaux 2012 et 2013 – Coach Agile et Conférencier au Startup Weekend Bordeaux 2012 – Co-fondateur de Ruby Bordeaux
 
 # **Formations et certifications**
 
-###  
+### 
 
 | 2019 – Scaled Agile Academy | Certified SAFe Program Consultant 4.6 (SPC)(En cours de validation) |
 | :---- | :---- |
@@ -55,7 +54,7 @@ Organisateur de l'Agile Tour Bordeaux 2012 et 2013 – Coach Agile et Conférenc
 
 ## **Upwiser – Expertise en agilité et innovation**
 
-### 
+###
 
 ### **Missions Notables**
 
@@ -80,11 +79,11 @@ Après un lancement du site mieuxplacer.com, la société cherche à rendre plus
 * Coaching individuel et collectif des Product Owner, Coach d’équipe, développeurs et CTO  
 * Formation aux pratiques agiles Scrum, Kanban et eXtreme Programming  
 * Facilitation d’ateliers productifs : Vision produit, Roadmap, Sprint Planning, Rétrospectives, Priorisation et découpage des fonctionnalités, rédaction des User Stories et écriture des Spécifications par l’exemple.  
-* Animation de jeux sérieux pour l’apprentissage : Estimation Planning Poker, Coding dojo / Test Driven Development,   
+* Animation de jeux sérieux pour l’apprentissage : Estimation Planning Poker, Coding dojo / Test Driven Development,
 * Recherche et aide à la mise en œuvre du rythme de collaboration de l’équipe de construction logiciel  
 * Animation et accompagnement des ateliers de braistorming
 
-### **Dekra Automotive Solution – Amélioration de la production – 03/2015 – 12/2016** 
+### **Dekra Automotive Solution – Amélioration de la production – 03/2015 – 12/2016**
 
 Dekra Automotive Solution, leader européen de l'expertise Buyback pour les véhicule d'occasion, optimise le cycle de vente et de rachat des véhicules entre les constructeurs et les loueurs.
 
@@ -126,7 +125,7 @@ Dekra Automotive Solution, leader européen de l'expertise Buyback pour les véh
 
 Le programme Next a pour objectif de refondre le patrimoine logiciel spécialisé interne de l'entreprise. Projet de 30 personnes sur 4 ans, j'ai organisé le développement de plus de 10 000 jours hommes. Scrum Master et Coach Agile au sein des équipes de développement, j'ai mis en oeuvre :
 
-* Formation aux méthodes agiles des différents intervenants projets   
+* Formation aux méthodes agiles des différents intervenants projets
 * Coaching et formation des nouveaux Scrum Masters et Product Owners  
 * Facilitation de la mise en œuvre de Scrum et Kanban  
 * Mise en place de Features Teams  
@@ -134,7 +133,7 @@ Le programme Next a pour objectif de refondre le patrimoine logiciel spécialis
 * Accompagnement technique des développeurs : TDD, BDD, Automatisation des Tests, bonnes pratiques de développement, design émergent  
 * Mise en œuvre de tests Selenium / Specflow et accompagnement au Behaviour Driven Development  
 * Mise en place de Coding Dojos internes (.Net et Ruby avec Cucumber et RSpec)  
-* Accompagnement à la mutation des 60 développeurs hors programme Next 
+* Accompagnement à la mutation des 60 développeurs hors programme Next
 
 **Contexte : Coaching, Scrum, Feature Teams, .Net, TFS, MS SQL Server, Gestion de flotte automobile**
 
@@ -152,7 +151,7 @@ La société de formation Smartview propose un cursus de formation agile en 5 mo
 
 L'EPSI a débuté dans l'ensemble de ses écoles, une volonté de donner une certification à chacun de ses étudiant de dernière année. Dans ce contexte, j'interviens en journées complètes de formation pour enseigner depuis les fondamentaux de l'agilité jusqu'à la pratique de Scrum. A l'issue de la formation, les étudiants passent la certification PSM-I, reconnue sur le marché.
 
-**Epitech – {FORWARD} Intervenant « Agilité » et « Value proposition » – 03/2015** 
+**Epitech – {FORWARD} Intervenant « Agilité » et « Value proposition » – 03/2015**
 
 L'Eptitech a lancé en 2015 un programme d'incubation de startups interne pour leurs étudiants. Sur des formats courts de quelques heures, je suis intervenu pour mettre en avant quelques principes et des jeux  leur permettant de voir autrement leur startup et leur produit.
 
@@ -191,7 +190,7 @@ Pour CDiscount, leader français du e-commerce, projets de recherche et dévelop
 
 ## **08/2006 – 09/2010 – Consultant / Chef de projet**
 
-## **Cast SA – Unité Consulting & Ingénierie – SSII** 
+## **Cast SA – Unité Consulting & Ingénierie – SSII**
 
 ### **Fullsix – Projets Joa Online – 07/2009 – 16 mois**
 
