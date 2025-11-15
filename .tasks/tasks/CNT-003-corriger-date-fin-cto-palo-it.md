@@ -8,7 +8,7 @@
 |-------|--------|
 | **ID** | CNT-003 |
 | **Titre** | Corriger la date de fin CTO chez PALO IT |
-| **Statut** | ⏳ À faire |
+| **Statut** | 🔄 En cours |
 | **Priorité** | 🔴 Haute |
 | **Trigramme** | CNT |
 | **Section CV** | Experience |
