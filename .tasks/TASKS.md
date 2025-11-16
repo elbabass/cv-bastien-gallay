@@ -62,8 +62,6 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 
 | ID | Titre | Statut | Priorité | Terminé le |
 |----|-------|--------|----------|------------|
-| [CNT-011](tasks/CNT-011-corriger-ecarts-mineurs-cdiscount.md) | Corriger écarts mineurs de dates (Cdiscount) | ✅ Terminé | 🔴 Haute | 2025-11-15 |
-| [CNT-007](tasks/CNT-007-corriger-date-safe.md) | Corriger la date SAFe | ✅ Terminé | 🔴 Haute | 2025-11-15 |
 | [CNT-003](tasks/CNT-003-corriger-date-fin-cto-palo-it.md) | Corriger la date de fin CTO chez PALO IT | ✅ Terminé | 🔴 Haute | 2025-11-15 |
 | [CNT-013](tasks/CNT-013-analyse-ancien-cv-2019.md) | Analyse ancien CV > 5 ans (2019) | ✅ Terminé | 🔴 Haute | 2025-11-14 |
 | [CNT-001](tasks/CNT-001-linkedin-audit.md) | Audit LinkedIn | ✅ Terminé | 🔴 Haute | 2025-11-05 |
@@ -72,8 +70,10 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 
 Les tâches archivées sont déplacées dans [.archived/](.archived/).
 
-**Tâches archivées:** 1 tâche
+**Tâches archivées:** 3 tâches
 - CNT-012 (2025-11-15)
+- CNT-011 (2025-11-15)
+- CNT-007 (2025-11-15)
 
 ---
 
@@ -138,12 +138,12 @@ Closes TPL-001"
 
 ## Statistiques
 
-- **Total**: 21 tâches
+- **Total**: 19 tâches
 - **À faire**: 13
 - **En cours**: 0
-- **Terminées**: 7
+- **Terminées**: 5
 - **Bloquées**: 0
-- **Archivées**: 1
+- **Archivées**: 3
 
 **Prochains IDs disponibles par trigramme**:
 

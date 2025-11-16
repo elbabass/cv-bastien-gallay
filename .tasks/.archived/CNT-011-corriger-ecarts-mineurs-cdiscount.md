@@ -8,7 +8,7 @@
 |-------|--------|
 | **ID** | CNT-011 |
 | **Titre** | Corriger écarts mineurs de dates (Cdiscount) |
-| **Statut** | ✅ Terminé |
+| **Statut** | 📦 Archivé |
 | **Priorité** | 🔴 Haute |
 | **Trigramme** | CNT |
 | **Section CV** | Experience |
@@ -128,6 +128,7 @@ Closes CNT-011"
 | 2025-10-29 | Création | Tâche créée depuis recommandation CNT-001-R10 |
 | 2025-11-15 | En cours | Début du travail |
 | 2025-11-15 | Terminé | Tâche complétée |
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 

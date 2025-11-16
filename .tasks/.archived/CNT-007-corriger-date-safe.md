@@ -8,7 +8,7 @@
 |-------|--------|
 | **ID** | CNT-007 |
 | **Titre** | Corriger la date SAFe |
-| **Statut** | ✅ Terminé |
+| **Statut** | 📦 Archivé |
 | **Priorité** | 🔴 Haute |
 | **Trigramme** | CNT |
 | **Section CV** | Education |
@@ -147,6 +147,7 @@ Closes CNT-007"
 | 2025-10-29 | Création | Tâche créée depuis recommandation CNT-001-R06 |
 | 2025-11-15 | Clarification | Utilisateur confirme: SPC4 (2018) et SPC5 (2020) tous deux corrects |
 | 2025-11-15 | Terminé | Vérification effectuée - CV correct |
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
