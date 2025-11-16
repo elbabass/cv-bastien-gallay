@@ -119,7 +119,7 @@
 
 #entry(
   title: "Gérant & Coach Agile",
-  date: "09/2013 - 01/2021",
+  date: "09/2013 - 02/2021",
   institution: "Upwiser",
   location: "Bordeaux, France",
 )[

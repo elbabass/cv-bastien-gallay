@@ -43,7 +43,7 @@ Ce fichier collecte les idées d'améliorations futures issues des tâches termi
 
 ## Infrastructure (INF)
 
-*Aucune idée pour l'instant*
+- [ ] Pérenniser le script Python de calcul des priorités (scripts/priority_weight.py) utilisé dans /task-next et l'améliorer pour le futur (source: CNT-002, 2025-11-16)
 
 ---
 
