@@ -1,4 +1,5 @@
 # CNT-001: Audit LinkedIn et documentation des éléments manquants
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -8,7 +9,7 @@
 |-------|--------|
 | **ID** | CNT-001 |
 | **Titre** | Audit LinkedIn et documentation des éléments manquants |
-| **Statut** | ✅ Terminé |
+| **Statut** | 📦 Archivé |
 | **Priorité** | 🔴 Haute |
 | **Trigramme** | CNT (Content) |
 | **Section CV** | General |
@@ -17,6 +18,7 @@
 | **Terminé le** | 2025-11-05 |
 | **Temps estimé** | 2 heures |
 | **Temps réel** | 3 heures |
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -35,6 +37,7 @@ Produire un document de référence listant tous les éléments du profil Linked
 - Ceux déjà présents dans le CV (avec références aux lignes)
 - Ceux manquants à ajouter
 - Ceux à mettre à jour ou préciser
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -49,6 +52,7 @@ Produire un document de référence listant tous les éléments du profil Linked
 - [x] Comparer avec le contenu actuel de [cv.typ](../../src/cv.typ)
 - [x] Documenter les écarts dans un fichier de sortie
 - [x] Créer une liste priorisée des éléments à ajouter
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -74,6 +78,7 @@ Produire un document de référence listant tous les éléments du profil Linked
 **Fichier de sortie:**
 
 - `TASKS/CNT-001-linkedin-audit-results.md` (à créer)
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -93,6 +98,7 @@ Produire un document de référence listant tous les éléments du profil Linked
 - Décider quels éléments ajouter en priorité
 - Créer des tâches spécifiques pour chaque mise à jour majeure
 - Vérifier la cohérence des descriptions entre LinkedIn et CV
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -110,6 +116,7 @@ Produire un document de référence listant tous les éléments du profil Linked
 ### Ressources
 
 - Profil LinkedIn: <https://www.linkedin.com/in/bastiengallay/>
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -127,6 +134,7 @@ git commit -m "docs(audit): 📝 complete LinkedIn profile audit
 
 Closes CNT-001"
 ```
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -136,6 +144,7 @@ Closes CNT-001"
 - [x] La comparaison avec cv.typ est exhaustive
 - [x] Les recommandations sont priorisées
 - [x] Le fichier de résultats est clair et exploitable
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -146,6 +155,7 @@ Closes CNT-001"
 | 2025-10-28 | Création | Tâche créée dans le cadre de l'initialisation du système de tâches |
 | 2025-10-29 | En cours | Début du travail - Option B: LinkedIn data export |
 | 2025-11-05 | Terminé | Audit complété avec extraction complète des données (45 fichiers CSV), analyse comparative détaillée (860 lignes), 19 recommandations tracées, clarifications utilisateur documentées, score final 8/10 |
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 

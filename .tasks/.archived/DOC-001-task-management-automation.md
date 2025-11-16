@@ -1,4 +1,5 @@
 # DOC-001: Système d'automatisation de gestion des tâches
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -8,7 +9,7 @@
 |-------|--------|
 | **ID** | DOC-001 |
 | **Titre** | Système d'automatisation de gestion des tâches |
-| **Statut** | ✅ Terminé |
+| **Statut** | 📦 Archivé |
 | **Priorité** | 🔴 Haute |
 | **Trigramme** | DOC |
 | **Section CV** | N/A |
@@ -17,6 +18,7 @@
 | **Terminé le** | 2025-10-28 |
 | **Temps estimé** | 2 heures |
 | **Temps réel** | 0.75 heures |
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -43,6 +45,7 @@ Réduire drastiquement la friction lors de la création, du démarrage, et de la
 2. 6 commandes Claude automatisant les opérations courantes
 3. Une synchronisation automatique entre les fichiers et le dashboard
 4. Une intégration Git simplifiée avec génération de commits conformes
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -62,6 +65,7 @@ Réduire drastiquement la friction lors de la création, du démarrage, et de la
 - [x] Mettre à jour CLAUDE.md
 - [x] Tester la compilation du CV
 - [x] Commit final et clôture
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -89,6 +93,7 @@ Réduire drastiquement la friction lors de la création, du démarrage, et de la
 - [TASKS/TEMPLATE.md](./TEMPLATE.md) - Structure de référence
 - [CLAUDE.md](../../CLAUDE.md) - Documentation projet
 - [GIT_WORKFLOW.md](../../docs/GIT_WORKFLOW.md) - Conventions Git
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -114,6 +119,7 @@ Réduire drastiquement la friction lors de la création, du démarrage, et de la
 4. /task-validate
 5. /task-next
 6. /task-archive
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -134,6 +140,7 @@ Aucune tâche liée directement.
 
 - Documentation Claude Code: <https://docs.claude.com/en/docs/claude-code>
 - Typst documentation: <https://typst.app/docs>
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -177,6 +184,7 @@ Closes DOC-001"
 - **Type**: feat (nouvelle fonctionnalité)
 - **Scope**: tasks
 - **Emoji**: ✨ (sparkles pour nouvelle feature)
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -190,6 +198,7 @@ Closes DOC-001"
 - [ ] La documentation est claire et complète
 - [ ] Mode interactif gère correctement les erreurs
 - [ ] Option --verbose fonctionne
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -200,6 +209,7 @@ Closes DOC-001"
 | 2025-10-28 | Création | Tâche créée et ajoutée au système |
 | 2025-10-28 | En cours | Début de l'implémentation |
 | 2025-10-28 | Terminé | Tâche complétée |
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 

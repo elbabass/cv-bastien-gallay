@@ -1,4 +1,5 @@
 # CNT-013: Analyse ancien CV > 5 ans (2019)
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -8,7 +9,7 @@
 |-------|--------|
 | **ID** | CNT-013 |
 | **Titre** | Analyse ancien CV > 5 ans (2019) |
-| **Statut** | ✅ Terminé |
+| **Statut** | 📦 Archivé |
 | **Priorité** | 🔴 Haute |
 | **Trigramme** | CNT |
 | **Section CV** | Experience |
@@ -17,6 +18,7 @@
 | **Terminé le** | 2025-11-14 |
 | **Temps estimé** | 2-3 heures |
 | **Temps réel** | 3 heures |
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -42,6 +44,7 @@ Extraire les données de l'ancien CV (PDF et MD), effectuer une analyse comparat
 - Analyse comparative dans `analyses/CNT-013/`
 - Recommandations priorisées dans `analyses/CNT-013/recommendations.md`
 - Fichier de tracking pour `/task-from-analysis`
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -56,6 +59,7 @@ Extraire les données de l'ancien CV (PDF et MD), effectuer une analyse comparat
 - [x] Générer les recommandations avec priorités `analyses/CNT-013/recommendations.md`
 - [x] Créer le fichier de tracking `analyses/CNT-013/recommendations-status.md`
 - [x] Mettre à jour `.tasks/ANALYSES.md`
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -107,6 +111,7 @@ Extraire les données de l'ancien CV (PDF et MD), effectuer une analyse comparat
 - `.tasks/resources/analyses/CNT-013/recommendations.md` - Recommandations
 - `.tasks/resources/analyses/CNT-013/recommendations-status.md` - Tracking
 - `.tasks/resources/analyses/CNT-013/metrics.md` - Statistiques
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -140,6 +145,7 @@ Extraire les données de l'ancien CV (PDF et MD), effectuer une analyse comparat
 - 07/2005 - 07/2006: Salarié direct Boonty
 - Total affiché: Boonty 06/2004 - 07/2006 (choix éditorial: ne pas valoriser Qualia séparément)
 - Mois exacts à vérifier avec documents officiels (contrats de travail, bulletins de salaire)
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -163,6 +169,7 @@ Extraire les données de l'ancien CV (PDF et MD), effectuer une analyse comparat
 - [ANALYSES.md](../ANALYSES.md) - Dashboard des analyses
 - [Templates d'analyse](../resources/templates/) - Templates à utiliser
 - [Analyse CNT-001 exemple](../resources/analyses/CNT-001/) - Exemple complet
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -199,6 +206,7 @@ Closes CNT-013"
 - **Type**: docs (documentation/analyse)
 - **Scope**: audit, analysis
 - **Emoji**: 📝 (documentation), 🔍 (investigation)
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -212,6 +220,7 @@ Closes CNT-013"
 - [x] Toutes les expériences antérieures à 2013 comparées
 - [x] Les IDs de recommandations suivent le format `CNT-013-RXX`
 - [x] Les commits suivent la convention
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -222,6 +231,7 @@ Closes CNT-013"
 | 2025-11-14 | Création | Tâche créée pour analyse CV 2019 |
 | 2025-11-14 | En cours | Début du travail, extraction et analyse |
 | 2025-11-14 | Terminé | Analyse complète: 14 recommandations, score 7.5/10 |
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 

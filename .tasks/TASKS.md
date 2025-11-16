@@ -62,18 +62,19 @@ Les descriptions détaillées de chaque tâche se trouvent dans le dossier [TASK
 
 | ID | Titre | Statut | Priorité | Terminé le |
 |----|-------|--------|----------|------------|
-| [CNT-003](tasks/CNT-003-corriger-date-fin-cto-palo-it.md) | Corriger la date de fin CTO chez PALO IT | ✅ Terminé | 🔴 Haute | 2025-11-15 |
-| [CNT-013](tasks/CNT-013-analyse-ancien-cv-2019.md) | Analyse ancien CV > 5 ans (2019) | ✅ Terminé | 🔴 Haute | 2025-11-14 |
-| [CNT-001](tasks/CNT-001-linkedin-audit.md) | Audit LinkedIn | ✅ Terminé | 🔴 Haute | 2025-11-05 |
-| [INF-002](tasks/INF-002-restructurer-sources-pdf-documentation.md) | Restructurer les sources, PDF et documentation | ✅ Terminé | 🔴 Haute | 2025-10-29 |
-| [DOC-001](tasks/DOC-001-task-management-automation.md) | Système d'automatisation de gestion des tâches | ✅ Terminé | 🔴 Haute | 2025-10-28 |
 
 Les tâches archivées sont déplacées dans [.archived/](.archived/).
 
-**Tâches archivées:** 3 tâches
+**Tâches archivées:** 8 tâches
+
+- CNT-013 (2025-11-14)
 - CNT-012 (2025-11-15)
 - CNT-011 (2025-11-15)
 - CNT-007 (2025-11-15)
+- CNT-003 (2025-11-15)
+- CNT-001 (2025-11-05)
+- INF-002 (2025-10-29)
+- DOC-001 (2025-10-28)
 
 ---
 
@@ -138,12 +139,12 @@ Closes TPL-001"
 
 ## Statistiques
 
-- **Total**: 19 tâches
+- **Total**: 14 tâches
 - **À faire**: 13
 - **En cours**: 0
-- **Terminées**: 5
+- **Terminées**: 0
 - **Bloquées**: 0
-- **Archivées**: 3
+- **Archivées**: 8
 
 **Prochains IDs disponibles par trigramme**:
 

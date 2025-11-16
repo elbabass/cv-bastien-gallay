@@ -1,4 +1,5 @@
 # CNT-003: Corriger la date de fin CTO chez PALO IT
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -8,7 +9,7 @@
 |-------|--------|
 | **ID** | CNT-003 |
 | **Titre** | Corriger la date de fin CTO chez PALO IT |
-| **Statut** | ✅ Terminé |
+| **Statut** | 📦 Archivé |
 | **Priorité** | 🔴 Haute |
 | **Trigramme** | CNT |
 | **Section CV** | Experience |
@@ -17,6 +18,7 @@
 | **Terminé le** | 2025-11-15 |
 | **Temps estimé** | 0.25 heures |
 | **Temps réel** | 0.2 heures |
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -41,6 +43,7 @@ Mettre à jour le CV avec la date exacte de fin (octobre 2025) pour assurer la c
 ### Résolution
 
 **Clarification utilisateur:** La date réelle de fin est **août 2025 (08/2025)**, pas octobre. Le CV est donc **correct** et c'est LinkedIn qui doit être mis à jour (action hors scope de ce projet).
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -51,6 +54,7 @@ Mettre à jour le CV avec la date exacte de fin (octobre 2025) pour assurer la c
 - [x] Vérifier le rendu dans le PDF généré
 - [x] Clarifier avec l'utilisateur la date réelle
 - [x] Documenter la clarification
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -68,6 +72,7 @@ Cette correction est simple et directe. La date LinkedIn (oct. 2025) doit être 
 **Fichiers à consulter:**
 
 - [cv.typ](../../src/cv.typ) (ligne 107)
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -76,6 +81,7 @@ Cette correction est simple et directe. La date LinkedIn (oct. 2025) doit être 
 > Rappels, références, notes personnelles
 
 Correction mineure mais importante pour la cohérence globale du CV.
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -93,6 +99,7 @@ Correction mineure mais importante pour la cohérence globale du CV.
 
 - [Recommandation CNT-001-R02](../resources/analyses/CNT-001/recommendations.md#r02---corriger-la-date-de-fin-cto-chez-palo-it)
 - LinkedIn: nov. 2024 - oct. 2025
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -115,6 +122,7 @@ Closes CNT-003"
 - **Type**: content
 - **Scope**: experience
 - **Emoji**: ✏️
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -124,6 +132,7 @@ Closes CNT-003"
 - [ ] Le PDF affiche 10/2025
 - [ ] La date est cohérente avec le format du CV
 - [ ] Les commits suivent la convention
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -135,6 +144,7 @@ Closes CNT-003"
 | 2025-11-15 | Démarré | Début de l'investigation |
 | 2025-11-15 | Clarification | Utilisateur confirme que 08/2025 est correct, LinkedIn est erroné |
 | 2025-11-15 | Terminé | Tâche fermée - Aucune modification nécessaire au CV |
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 

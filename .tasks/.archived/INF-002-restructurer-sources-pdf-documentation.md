@@ -1,4 +1,5 @@
 # INF-002: Restructurer les sources, PDF et documentation
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -8,7 +9,7 @@
 |-------|--------|
 | **ID** | INF-002 |
 | **Titre** | Restructurer les sources, PDF et documentation |
-| **Statut** | ✅ Terminé |
+| **Statut** | 📦 Archivé |
 | **Priorité** | 🔴 Haute |
 | **Trigramme** | INF |
 | **Section CV** | N/A |
@@ -17,6 +18,7 @@
 | **Terminé le** | 2025-10-29 |
 | **Temps estimé** | 1 heure |
 | **Temps réel** | 1 heure |
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -32,6 +34,7 @@ S'inspirer de projets Java ou Python pour créer une structure plus professionne
 ### Objectif
 
 Une navigation plus simple dans le repository, et une capacité à implémenter d'autres tâches de QUA et INF notamment.
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -46,6 +49,7 @@ Une navigation plus simple dans le repository, et une capacité à implémenter 
 - [x] Disposer d'un dossier de build ou dist, qui comportera tous les CV construits dans ce repo
 - [x] Ajuster le .gitignore
 - [x] Créer/adapter la configuration typst et créer des scripts ou un makefile-like afin de gérer les compilations typst correctement
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -106,6 +110,7 @@ neat-cv/
 ├── .gitignore
 └── README.md
 ```
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -117,6 +122,7 @@ neat-cv/
 - Penser à vérifier que tous les liens relatifs dans la documentation restent valides
 - Ne pas oublier de mettre à jour le .gitignore pour exclure le dossier dist/
 - Considérer l'ajout d'un Makefile ou justfile pour simplifier les commandes
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -139,6 +145,7 @@ neat-cv/
 - Conventions de structure projet : Python, Java, Rust, etc.
 - Documentation Typst sur l'organisation de projets
 - [Just](https://github.com/casey/just) - Alternative moderne à Make
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -174,6 +181,7 @@ Closes INF-002"
 - **Type**: infra
 - **Scope**: structure
 - **Emoji**: ♻️ (refactor) ou 🔧 (config)
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -186,6 +194,7 @@ Closes INF-002"
 - [ ] Tous les liens dans la documentation sont valides
 - [ ] Le .gitignore exclut correctement les fichiers de build
 - [ ] Les scripts de build fonctionnent
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
@@ -196,6 +205,7 @@ Closes INF-002"
 | 2025-10-29 | Création | Tâche créée depuis une idée du backlog |
 | 2025-10-29 | En cours | Début du travail |
 | 2025-10-29 | Terminé | Tâche complétée |
+| 2025-11-15 | Archivé | Tâche archivée dans .tasks/.archived/ |
 
 ---
 
